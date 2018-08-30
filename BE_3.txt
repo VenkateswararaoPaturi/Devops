@@ -1,0 +1,1143 @@
+$  grep "2014-01-31 07:55" verbose.log
+[2014-01-31 07:55:01,434 DEBUG] - B***M***
+[2014-01-31 07:55:01,434 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ataglance IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:01,435 DEBUG] - ataglance This is the requestpage
+[2014-01-31 07:55:01,435 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:01,435 DEBUG] - If secure mode is true
+[2014-01-31 07:55:01,435 DEBUG] - request.getHeader UserName jeg0376
+[2014-01-31 07:55:01,435 DEBUG] - username=jeg0376
+[2014-01-31 07:55:01,435 DEBUG] - No ModelManager instance found in the session for jeg0376.  Performing initialize.
+[2014-01-31 07:55:01,435 DEBUG] - from session UserName jeg0376
+[2014-01-31 07:55:01,435 DEBUG] - Inside Model Manager: init() method
+[2014-01-31 07:55:01,435 DEBUG] - MMSession key:entryApplication, value:M, old value:null
+[2014-01-31 07:55:01,435 DEBUG] - MMSession key:applicationId, value:B, old value:null
+[2014-01-31 07:55:01,435 DEBUG] - MMSession key:csaname, value:jeg0376, old value:null
+[2014-01-31 07:55:01,435 DEBUG] - ************Inside ModelManager:retrieveData******************
+[2014-01-31 07:55:01,435 DEBUG] -  beofre getCustomerBean
+[2014-01-31 07:55:01,436 DEBUG] -  beofre validateLogin
+[2014-01-31 07:55:01,437 DEBUG] - AppId in ModelManager before validateLogin:B
+[2014-01-31 07:55:01,437 DEBUG] - Verbose log value from Customer EJB:true
+[2014-01-31 07:55:01,437 DEBUG] -  MQ Header : CIWISLN0            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:01,437 DEBUG] - Application Id:B
+[2014-01-31 07:55:01,539 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:01,539 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:01,652 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:01,652 DEBUG] -  Request Message : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          jeg0376                 BM
+[2014-01-31 07:55:01,652 DEBUG] -  mqmessage : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          jeg0376                 BM
+[2014-01-31 07:55:01,652 DEBUG] -  messageFromFile : : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          jeg0376                 BM
+[2014-01-31 07:55:01,652 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:01,667 DEBUG] - Send Message:*CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          jeg0376                 BM * (293)
+[2014-01-31 07:55:01,667 DEBUG] -  Receiving Message
+[2014-01-31 07:55:01,738 DEBUG] - Message Property Names:
+[2014-01-31 07:55:01,738 DEBUG] - TextMessage:[4296][CIWISLN0            WWP     pvmkb060                                        00000                                                                                                                        00000        0   0                                                                                                                                   UX                                                                                                                                                                                                                                      ISSJEG0376        000000000B         AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ]
+[2014-01-31 07:55:01,753 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:01,767 DEBUG] -  headermsg : CIWISLN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:01,767 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:01,767 DEBUG] -  headermsg : CIWISLN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:01,767 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:01,767 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:01,767 DEBUG] -  ResponseText :
+[2014-01-31 07:55:01,767 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:01,767 DEBUG] - Return Message (trimmed):00000        0   0                                                                                                                                   UX                                                                                                                                                                                                                                      ISSJEG0376        000000000B         AA
+[2014-01-31 07:55:01,767 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:01,922 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:01,922 DEBUG] - AppId in ModelManager after validateLogin:B
+[2014-01-31 07:55:01,922 DEBUG] - after getClassOfService
+[2014-01-31 07:55:01,922 DEBUG] - after getClassOfService()
+[2014-01-31 07:55:01,922 DEBUG] -  before getMysamUser
+[2014-01-31 07:55:01,922 DEBUG] - ************ro********com.sprint.mysam.returnobjects.AccountRetrievalReturnObject@5a6fceb0
+[2014-01-31 07:55:01,922 DEBUG] - Determining if more calls are needed.  HierMaster flag:false
+[2014-01-31 07:55:01,922 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSAUpdate()true
+[2014-01-31 07:55:01,923 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:01,923 DEBUG] - REMOVING MMSESSION KEY:lastError, old value:null
+[2014-01-31 07:55:01,923 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSAUpdate()true
+[2014-01-31 07:55:01,923 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:01,923 DEBUG] - isCSAUpdate()true
+[2014-01-31 07:55:01,923 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:01,923 DEBUG] - MM:: User is CSA. Welcome CSA.
+[2014-01-31 07:55:01,923 DEBUG] - ************ModelManager:newcsu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:01,924 DEBUG] - The valid CSA UserNames are:[supportgena, supportbonnie, supportvijay, supportsachiko, supportdustin, supnz133967portcynthia, supportanita, ccu0731, webstest, supportshuvra, supportsameer, supportsuheal, supportprachi]
+[2014-01-31 07:55:01,924 DEBUG] - Username is not a CSA Internal user. Checking whether username is login with internal user name ....Calling checkUserName() method
+[2014-01-31 07:55:01,926 DEBUG] - MM::checkUserName: sqlQuery2 SELECT USER_NME FROM USER_SECURITY WHERE INTERNAL_USER_NME = ?
+[2014-01-31 07:55:01,926 DEBUG] - MM:: checkUserName: username jeg0376
+[2014-01-31 07:55:01,928 DEBUG] - MM::checkUserName: ResultSet 2 is not null. User Exist in database.
+[2014-01-31 07:55:01,928 DEBUG] - ADID:=null
+[2014-01-31 07:55:01,928 DEBUG] - Closing conn
+[2014-01-31 07:55:01,929 DEBUG] - username is not a CSA internal user/alternate user name. Checking the username in LDAP:
+[2014-01-31 07:55:01,929 DEBUG] - Starting the LDAP retrieval process.
+[2014-01-31 07:55:01,959 DEBUG] - LDAPConnection is called.
+[2014-01-31 07:55:01,959 DEBUG] - username:=jeg0376
+[2014-01-31 07:55:01,959 DEBUG] - Search String:= samaccountname=jeg0376
+[2014-01-31 07:55:01,959 DEBUG] - Calling LDAPFactory.....searchString:=(samaccountname=jeg0376)
+[2014-01-31 07:55:01,959 DEBUG] - LDAPFactory called. Calling NamingEnumeration....
+[2014-01-31 07:55:01,976 DEBUG] - Result=:com.sun.jndi.ldap.LdapSearchEnumeration@40b45895
+[2014-01-31 07:55:02,042 DEBUG] - Person Results contains elements[ adDomainID=jeg0376, emplyeeSecGrp [00003,00002], lastUpdt20131230131213.0Z, activeFlg=A]
+[2014-01-31 07:55:02,042 DEBUG] - Person :=[ adDomainID=jeg0376, emplyeeSecGrp [00003,00002], lastUpdt20131230131213.0Z, activeFlg=A]
+[2014-01-31 07:55:02,043 DEBUG] - Login ADID is Active User in LDAP... Check the user in USER_SECURITY table
+[2014-01-31 07:55:02,044 DEBUG] - MM::checkUserSecurity: sqlQuery2 SELECT NEW_REG_DT FROM USER_SECURITY WHERE USER_NME = ? OR INTERNAL_USER_NME = ? AND NEW_REG_DT IS NOT NULL AND ACTIVE_FLAG IN('A','P')
+[2014-01-31 07:55:02,045 DEBUG] - MM:: checkUserSecurity: username jeg0376
+[2014-01-31 07:55:02,047 DEBUG] - MM::checkUserSecurity: ResultSet 2 is not null. User Exist in database.
+[2014-01-31 07:55:02,047 DEBUG] - ResultSet 2 1
+[2014-01-31 07:55:02,047 DEBUG] - ResultSet 2 2
+[2014-01-31 07:55:02,047 DEBUG] - Closing conn
+[2014-01-31 07:55:02,047 DEBUG] - MM::User is present in LDAP and also registered for WWP.... Get/Set the security Group from LDAP
+[2014-01-31 07:55:02,047 DEBUG] - userSecGrp retreived from LDAP :esecGrp :=[00003,00002]
+[2014-01-31 07:55:02,048 DEBUG] - userSecGrp Set in ArrayList from LDAP:=[00003, 00002]
+[2014-01-31 07:55:02,048 DEBUG] - MM::UserSecurityGroup is set from LDAP in newcsu object :=[00003, 00002]
+[2014-01-31 07:55:02,048 DEBUG] - MMSession key:mCSAUser, value:[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ], old value:null
+[2014-01-31 07:55:02,048 DEBUG] - MMSession key:csaAccessLevel, value:  , old value:null
+[2014-01-31 07:55:02,048 DEBUG] - ModelManager:retrieveData():msu=[ firstName=null, lastName null, userStatusCodeA, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,048 DEBUG] - ModelManager:retrieveData():newcsu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,048 DEBUG] - Retrieving user information from siteminder for jeg0376
+[2014-01-31 07:55:02,048 DEBUG] - SM.readUserRecord()::Called
+[2014-01-31 07:55:02,049 DEBUG] - SecurityBean.getUserInfo for user: jeg0376
+[2014-01-31 07:55:02,282 DEBUG] - SBTime1:58 SBTime2:175
+[2014-01-31 07:55:02,282 DEBUG] - SecurityBean.getUserInfo: 00000             STEWART               JANET            wwadmin1  Fri Jan 31 06:55:01 CST 2014            wwadmin1  Fri Jan 31 06:55:01 CST 2014        jeg0376                        ACTIVE  Fri Jan 31 06:55:01 CST 2014                                                              Thu Jan 30 10:32:28 CST 2014                                                               Fri Oct 8 12:29:10 CDT 2010 -1                 ldd.ww.issama
+[2014-01-31 07:55:02,283 DEBUG] - SM.readUserRecord()::end (00000             STEWART               JANET            wwadmin1  Fri Jan 31 06:55:01 CST 2014            wwadmin1  Fri Jan 31 06:55:01 CST 2014        jeg0376                        ACTIVE  Fri Jan 31 06:55:01 CST 2014                                                              Thu Jan 30 10:32:28 CST 2014                                                               Fri Oct 8 12:29:10 CDT 2010 -1                 ldd.ww.issama) SMTime:235
+[2014-01-31 07:55:02,283 DEBUG] - ModelManager:retrieveData():user_info=00000             STEWART               JANET            wwadmin1  Fri Jan 31 06:55:01 CST 2014            wwadmin1  Fri Jan 31 06:55:01 CST 2014        jeg0376                        ACTIVE  Fri Jan 31 06:55:01 CST 2014                                                              Thu Jan 30 10:32:28 CST 2014                                                               Fri Oct 8 12:29:10 CDT 2010 -1                 ldd.ww.issama
+[2014-01-31 07:55:02,283 DEBUG] - Retrieving User Roles from siteminder for jeg0376
+[2014-01-31 07:55:02,283 DEBUG] - SM.readRoles()::Called
+[2014-01-31 07:55:02,284 DEBUG] - SM.readRoles()::Calling ejb method readUserRoles()
+[2014-01-31 07:55:02,284 DEBUG] - Reading user roles for:jeg0376
+[2014-01-31 07:55:02,560 DEBUG] - roleId= ldd.ww.issama name= ISS Admin Maintenance role category=ldd.ww
+[2014-01-31 07:55:02,560 DEBUG] - SM.readRoles()::end (00000              ldd.ww       ldd.ww.issama                       ISS Admin Maintenance)
+[2014-01-31 07:55:02,560 DEBUG] - Retrieving User Roles from siteminder for [       ldd.ww.issama]
+[2014-01-31 07:55:02,560 DEBUG] - Return for readRoles:*[       ldd.ww.issama]*
+[2014-01-31 07:55:02,560 DEBUG] - MMSession key:mCSAUser, value:[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ], old value:[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,560 DEBUG] - ModelManager:retrieveData():arusertype=null
+[2014-01-31 07:55:02,560 DEBUG] - ModelManager:retrieveData():newcsu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,560 DEBUG] - Setting first/last name: JANET/STEWART
+[2014-01-31 07:55:02,561 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager. Checking condition for masking data.
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager.PropertiesManager.getSensitiveCustomersBillCycles() : [75, 76]
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager. ro.getAccount().getBillCycle() :
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager. ro.getAccount().getFutureBillCycle() :
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager. PropertiesManager.getSensitiveCustomersBillCycles() : 75
+[2014-01-31 07:55:02,561 DEBUG] - In ModelManager. PropertiesManager.getSensitiveCustomersBillCycles() : 76
+[2014-01-31 07:55:02,561 DEBUG] - csu is null
+[2014-01-31 07:55:02,561 DEBUG] - msu.getSecurityGroup() is null
+[2014-01-31 07:55:02,561 DEBUG] - Account:=[ custId=, name , physicalAddressnull, billingAddress=null, arIndicator=, cityStateZip=, hierarchyLevel=null, userType]
+[2014-01-31 07:55:02,562 DEBUG] - called mm init method:
+[2014-01-31 07:55:02,562 DEBUG] - ModelManager stored in session: com.sprint.mysam.model.ModelManager@4c428142.
+[2014-01-31 07:55:02,562 DEBUG] - requestProcessor in session is null. so initializing it....
+[2014-01-31 07:55:02,562 DEBUG] -
+[2014-01-31 07:55:02,562 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:02,562 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:02,562 DEBUG] - In Controller Servlet:Calling  Request Processor  process()  method
+[2014-01-31 07:55:02,562 DEBUG] - Inside RequestProcessor --- process() method
+[2014-01-31 07:55:02,563 DEBUG] - RP: Value of Application is B
+[2014-01-31 07:55:02,563 DEBUG] - RP: Value of Application isBSG true
+[2014-01-31 07:55:02,563 DEBUG] - Processing request: ataglance.  FirstTime: true
+[2014-01-31 07:55:02,563 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:02,563 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:02,563 DEBUG] - isCSAUpdate()true
+[2014-01-31 07:55:02,563 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:02,563 DEBUG] - ****isIDTCsa  false ***csaSearch***
+[2014-01-31 07:55:02,563 DEBUG] - if firsttime is true, after validateLogin: thePage: csaSearch
+[2014-01-31 07:55:02,563 DEBUG] - Processing CSA/AR page: csaSearch
+[2014-01-31 07:55:02,563 DEBUG] - Verifying access for csa page: csaSearch username: jeg0376
+[2014-01-31 07:55:02,563 DEBUG] - Evaluating csa page: csaSearch
+[2014-01-31 07:55:02,563 DEBUG] - MMSession key:csaAccessLevel, value:  , old value:
+[2014-01-31 07:55:02,563 DEBUG] -  Emulate Url
+[2014-01-31 07:55:02,564 DEBUG] - Setting return attribute:(*sobpmassupdate*,*/mysam/serviceBM/csaSOBPMassUpdate*)
+[2014-01-31 07:55:02,564 DEBUG] - Setting return attribute:(*csaemulateurl*,*https://biz.myaccount.sprint.com/mysam/serviceBM/csaemulateuser*)
+[2014-01-31 07:55:02,564 DEBUG] - Finished processing request.  New page: csaSearch
+[2014-01-31 07:55:02,564 DEBUG] - %%%%% PROCESSING REQUEST: ataglance, SENDING TO: csaSearch, FOR USER:jeg0376 (jeg0376) IP:144.229.32.1
+[2014-01-31 07:55:02,564 DEBUG] - PageInfo.init for csaSearch
+[2014-01-31 07:55:02,564 DEBUG] - Account:=[ custId=, name , physicalAddressnull, billingAddress=null, arIndicator=, cityStateZip=, hierarchyLevel=null, userType]
+[2014-01-31 07:55:02,564 DEBUG] - NavPage:-2 pageId:18 title:CSA Search Screen
+[2014-01-31 07:55:02,564 DEBUG] - Headers and Footers will not be displayed.
+[2014-01-31 07:55:02,564 DEBUG] - MMSession key:addUserMsg, value:, old value:null
+[2014-01-31 07:55:02,564 DEBUG] - forward next view
+[2014-01-31 07:55:02,565 DEBUG] - forward next view
+[2014-01-31 07:55:02,565 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:02,565 DEBUG] - UserType In else block ### U
+[2014-01-31 07:55:02,565 DEBUG] - applicationId ### B
+[2014-01-31 07:55:02,565 DEBUG] - is BSG true
+[2014-01-31 07:55:02,565 DEBUG] - include:
+[2014-01-31 07:55:02,565 DEBUG] - include: navcsa.jsp
+[2014-01-31 07:55:02,566 DEBUG] - include: security/csasearch.jsp
+[2014-01-31 07:55:02,566 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,566 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:02,566 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:02,566 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:02,566 DEBUG] - **********name=addUser
+[2014-01-31 07:55:02,568 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,568 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:02,568 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:02,568 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:02,568 DEBUG] - **********name=massUpdate
+[2014-01-31 07:55:02,568 DEBUG] - **********csu.isMassUpdateUser()=false
+[2014-01-31 07:55:02,568 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,569 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:02,569 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:02,569 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:02,569 DEBUG] - **********name=dataSearch
+[2014-01-31 07:55:02,569 DEBUG] - Validating CSA Datanames for Customer Service User = jeg0376
+[2014-01-31 07:55:02,569 DEBUG] - Validating CSA Usernames for Customer Service User = jeg0376
+[2014-01-31 07:55:02,569 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,569 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:02,569 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:02,569 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:02,569 DEBUG] - **********name=Edi
+[2014-01-31 07:55:02,569 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:02,569 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:02,570 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:02,570 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:02,570 DEBUG] - **********name=ARPayABill
+[2014-01-31 07:55:02,570 DEBUG] - include:
+[2014-01-31 07:55:02,570 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@4c428142 Page: ataglance CSStat: 1136
+[2014-01-31 07:55:04,307 DEBUG] - B***M***
+[2014-01-31 07:55:04,307 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARSearch IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:04,307 DEBUG] - ARSearch This is the requestpage
+[2014-01-31 07:55:04,307 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:04,307 DEBUG] - If secure mode is true
+[2014-01-31 07:55:04,307 DEBUG] - request.getHeader UserName jeg0376
+[2014-01-31 07:55:04,307 DEBUG] - username=jeg0376
+[2014-01-31 07:55:04,308 DEBUG] - from session UserName jeg0376
+[2014-01-31 07:55:04,308 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:04,308 DEBUG] -
+[2014-01-31 07:55:04,308 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:04,308 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:04,308 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:04,308 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeyType AND VALUE IS
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISfunc AND VALUE IS
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqUserName AND VALUE IS
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqEmailId AND VALUE IS
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqCustId AND VALUE IS 000000000
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqPhone AND VALUE IS
+[2014-01-31 07:55:04,308 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISANI AND VALUE IS
+[2014-01-31 07:55:04,309 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISbeginMore AND VALUE IS 0
+[2014-01-31 07:55:04,309 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISapplicationId AND VALUE IS B
+[2014-01-31 07:55:04,309 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISaccessLevel AND VALUE IS
+[2014-01-31 07:55:04,309 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeySelection AND VALUE IS P
+[2014-01-31 07:55:04,309 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeyValue AND VALUE IS
+[2014-01-31 07:55:04,309 DEBUG] - Processing request: ARSearch.  FirstTime: false
+[2014-01-31 07:55:04,309 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARSearch
+[2014-01-31 07:55:04,309 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARSearch
+[2014-01-31 07:55:04,309 DEBUG] - MMSession key:payAmount, value:, old value:null
+[2014-01-31 07:55:04,309 DEBUG] - MMSession key:payTypeIndSelected, value:, old value:null
+[2014-01-31 07:55:04,309 DEBUG] - MMSession key:payTypeBusSelected, value:, old value:null
+[2014-01-31 07:55:04,309 DEBUG] - MMSession key:payDate, value:, old value:null
+[2014-01-31 07:55:04,309 DEBUG] - MMSession key:payAccountNumber, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payRoutingNumber, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payFirstName, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payLastName, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payBusinessName, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:paySsn, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payAddress1, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payAddress2, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payCity, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payState, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payZip, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payPhone1, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payPhone2, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payPhone3, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:arEmailId, value:, old value:null
+[2014-01-31 07:55:04,310 DEBUG] - MMSession key:payFullName, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:payCardNumber, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:payCardType, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:payExpMonth, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:payExpYear, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:payAmount, value:, old value:
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:ARPcopErrorMessage, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:arIndicator, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:marketGSF, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:brandID, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:arBillCycle, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - MMSession key:arFutureBillCycle, value:, old value:null
+[2014-01-31 07:55:04,311 DEBUG] - Inside CSM: arprocess() method: ret=ARSearch
+[2014-01-31 07:55:04,311 DEBUG] - Finished processing AR request.  New page: ARSearch
+[2014-01-31 07:55:04,311 DEBUG] - %%%%% PROCESSING REQUEST: ARSearch, SENDING TO: ARSearch, FOR USER:jeg0376 (jeg0376) IP:144.229.32.1
+[2014-01-31 07:55:04,312 DEBUG] - PageInfo.arInit for ARSearch
+[2014-01-31 07:55:04,312 DEBUG] - NavPage:-2 pageId:118 title:AR Search Screen
+[2014-01-31 07:55:04,312 DEBUG] - Headers and Footers will not be displayed.
+[2014-01-31 07:55:04,312 DEBUG] - MMSession key:addUserMsg, value:, old value:
+[2014-01-31 07:55:04,312 DEBUG] - forward next view
+[2014-01-31 07:55:04,312 DEBUG] - forward next view
+[2014-01-31 07:55:04,312 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:04,312 DEBUG] - UserType In else block ### U
+[2014-01-31 07:55:04,312 DEBUG] - applicationId ### B
+[2014-01-31 07:55:04,312 DEBUG] - is BSG true
+[2014-01-31 07:55:04,313 DEBUG] - include:
+[2014-01-31 07:55:04,313 DEBUG] - include: navcsa.jsp
+[2014-01-31 07:55:04,313 DEBUG] - include: security/ARAdminsearch.jsp
+[2014-01-31 07:55:04,313 DEBUG] - ****INSERT TAG::Parameter not found:ARUserType****
+[2014-01-31 07:55:04,314 DEBUG] - ****INSERT TAG::Parameter not found:secReqUserType****
+[2014-01-31 07:55:04,314 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:04,314 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:04,314 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:04,314 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:04,314 DEBUG] - **********name=displayARKeyType
+[2014-01-31 07:55:04,314 DEBUG] - **********csu=[ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:04,314 DEBUG] - In do start Tag**********arUserType=null
+[2014-01-31 07:55:04,314 DEBUG] - **********phoneList=null
+[2014-01-31 07:55:04,314 DEBUG] - **********secGrp=null
+[2014-01-31 07:55:04,314 DEBUG] - **********name=addARUser
+[2014-01-31 07:55:04,314 DEBUG] - include:
+[2014-01-31 07:55:04,315 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@4c428142 Page: ARSearch CSStat: 8
+[2014-01-31 07:55:10,317 DEBUG] - B***M***
+[2014-01-31 07:55:10,317 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARrequest IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:10,317 DEBUG] - ARrequest This is the requestpage
+[2014-01-31 07:55:10,317 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:10,317 DEBUG] - If secure mode is true
+[2014-01-31 07:55:10,317 DEBUG] - request.getHeader UserName jeg0376
+[2014-01-31 07:55:10,317 DEBUG] - username=jeg0376
+[2014-01-31 07:55:10,317 DEBUG] - from session UserName jeg0376
+[2014-01-31 07:55:10,317 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:10,317 DEBUG] -
+[2014-01-31 07:55:10,317 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:10,317 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:10,317 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:10,317 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeyType AND VALUE IS C
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISfunc AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqUserName AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqCustId AND VALUE IS 497065725
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqPhone AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISbeginMore AND VALUE IS 0
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISapplicationId AND VALUE IS B
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISaccessLevel AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISarUserType AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISrequestingUserType AND VALUE IS
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeySelection AND VALUE IS C
+[2014-01-31 07:55:10,318 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeyValue AND VALUE IS 497065725
+[2014-01-31 07:55:10,318 DEBUG] - Processing request: ARrequest.  FirstTime: false
+[2014-01-31 07:55:10,318 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARrequest
+[2014-01-31 07:55:10,318 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARrequest
+[2014-01-31 07:55:10,318 DEBUG] - Inside arprocess() method: Processing ARRequest page.
+[2014-01-31 07:55:10,318 DEBUG] - Evaluating request type
+[2014-01-31 07:55:10,318 DEBUG] - Processing ARSelection by custid page
+[2014-01-31 07:55:10,318 DEBUG] - Building intial values for AR selection by custID page
+[2014-01-31 07:55:10,318 DEBUG] - Inside selectARUser : csu:= [ firstName=null, lastName null, userStatusCodenull, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:10,318 DEBUG] - Inside selectARUser : msu:= [ firstName=JANET, lastName STEWART, userStatusCodeA, userType=U, arUserType=null, username=jeg0376, userLevel= , accessLevel  ]
+[2014-01-31 07:55:10,318 DEBUG] - Inside selectARUser : token:= ISSjeg0376                 U
+[2014-01-31 07:55:10,318 DEBUG] - Inside CSM: csaUserName:=jeg0376
+[2014-01-31 07:55:10,319 DEBUG] - MMSession key:secCustId, value:497065725, old value:null
+[2014-01-31 07:55:10,319 DEBUG] - calling customer bean to retrieve by custid, no IUP record.: custid:=497065725
+[2014-01-31 07:55:10,319 DEBUG] - Retrieving customer for CSA search.
+[2014-01-31 07:55:10,320 DEBUG] - Retrieving customer for CSA search. custid497065725
+[2014-01-31 07:55:10,320 DEBUG] -  MQ Header : CIWISSN0            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:10,420 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:10,420 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:10,534 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:10,534 DEBUG] -  Request Message : CIWISSN0            WWP     pvmkb060                                                                                                                                                                    CIWISSN0                    ISSjeg0376                 U          D                                   497065725
+[2014-01-31 07:55:10,534 DEBUG] -  mqmessage : CIWISSN0            WWP     pvmkb060                                                                                                                                                                    CIWISSN0                    ISSjeg0376                 U          D                                   497065725
+[2014-01-31 07:55:10,534 DEBUG] -  messageFromFile : : CIWISSN0            WWP     pvmkb060                                                                                                                                                                    CIWISSN0                    ISSjeg0376                 U          D                                   497065725
+[2014-01-31 07:55:10,534 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:10,549 DEBUG] - Send Message:*CIWISSN0            WWP     pvmkb060                                                                                                                                                                    CIWISSN0                    ISSjeg0376                 U          D                                   497065725* (311)
+[2014-01-31 07:55:10,549 DEBUG] -  Receiving Message
+[2014-01-31 07:55:10,605 DEBUG] - Message Property Names:
+[2014-01-31 07:55:10,605 DEBUG] - TextMessage:[4296][CIWISSN0            WWP     pvmkb060                                        00000                                                                                                                        00000                                                                                                                                                U               FRED STIFT                                        497065725                                                                         A ACCOUNT IS ACTIVE DI 000000000                                               00002340000000000000000000000F00RES     I                                                                                               N  00000000000000000000000000000000000000000000000000000000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ]
+[2014-01-31 07:55:10,621 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:10,635 DEBUG] -  headermsg : CIWISSN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:10,635 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:10,635 DEBUG] -  headermsg : CIWISSN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:10,635 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:10,635 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:10,635 DEBUG] -  ResponseText :
+[2014-01-31 07:55:10,636 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:10,636 DEBUG] - Return Message (trimmed):00000                                                                                                                                                U               FRED STIFT                                        497065725                                                                         A ACCOUNT IS ACTIVE DI 000000000                                               00002340000000000000000000000F00RES     I                                                                                               N  00000000000000000000000000000000000000000000000000000000
+[2014-01-31 07:55:10,636 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:10,787 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:10,787 DEBUG] - CSA Retrieve Customer returnObj= [CSAReturnObject retCode=00000|retMsg=|userDetail=[CSARetrievalInfo:accessLevel=|acctBlockDesc=|acctBlockFlag=|acctName=FRED STIFT|acctStusDesc=A ACCOUNT IS ACTIVE|billAgcy=I|billExcp=00|completeFlag=|custId=497065725|emailId=|hierLevel=DI|hintAns=|hintCode=|hintQstn=|invPtTmStmp=0000234|invSupr=|ionHintFlag=N|mktGrpFlg=F|mstrTmStamp=0000000|parentBlkDesc=|parentCustId=000000000|parentHierLvl=|pmtOptCd=|rewardsFlag=|rqstUserType=U|secAcctFlag=|secWord=|territory=RES|rewardsFlag=|userBlkFlag=|userLvl=|userName=|userRegDate=00000000|userRegTime=0000000|userStatus=|userType=|optStatus=|userOptStatusDate=00000000|userOptStatusTime=0000000|userEmailDate=00000000|userEmailTime=0000000|userIntLgnDt=000000|userIntLgnTm=0000000|userLstLgnDt=000000|userLstLgnTm=0000000|userMasterH1ID= SecurityProfile Fields: creationDate=|lastSuccessLogin=|lastUnSuccessLogin=|lastUpdateDate=|lastUpdateUser=|numInvLogins=|firstName=|lastName=|userName=|userStatus=]|numUsers=none ]
+[2014-01-31 07:55:10,787 DEBUG] - After call to customer bean for search by cust id00000
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secCustId, value:497065725, old value:497065725
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secCustomerName, value:FRED STIFT, old value:null
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secHierarchyLevel, value:DI, old value:null
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secMasterH1ID, value:, old value:null
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secAcctStatusDesc, value:A ACCOUNT IS ACTIVE, old value:null
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secKeyType, value:D, old value:null
+[2014-01-31 07:55:10,787 DEBUG] - MMSession key:secUserType, value:, old value:null
+[2014-01-31 07:55:10,788 DEBUG] - Retrieving AR Care user's contract security group: [00003, 00002]
+[2014-01-31 07:55:10,788 DEBUG] - MySamUser:getToken()= ISSjeg0376        497065725B
+[2014-01-31 07:55:10,788 DEBUG] -  MQ Header : CIWISDN1            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:10,887 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:10,887 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:11,002 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:11,002 DEBUG] -  Request Message : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSjeg0376        497065725B
+[2014-01-31 07:55:11,002 DEBUG] -  mqmessage : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSjeg0376        497065725B
+[2014-01-31 07:55:11,002 DEBUG] -  messageFromFile : : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSjeg0376        497065725B
+[2014-01-31 07:55:11,002 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:11,018 DEBUG] - Send Message:*CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSjeg0376        497065725B          * (266)
+[2014-01-31 07:55:11,018 DEBUG] -  Receiving Message
+[2014-01-31 07:55:11,083 DEBUG] - Message Property Names:
+[2014-01-31 07:55:11,083 DEBUG] - TextMessage:[4296][CIWISDN1            WWP     pvmkb060                                        00000                                                                                                                        00000        0   0                                                                                                                                   FRED STIFT                                        3731 N COUNTRY CLUB DR    APT 1829                  AVENTURA            FL3318017443731 N COUNTRY CLUB DR    # 18                      AVENTURA            FL331801733HMW39RSPDI FDD00FONRES                       900241000P  2500                      305IJANET.E.STEWART@SPRINT.COM                        201010081229111   X  U  AA   N     20080820  N                                                 3059327837*                                0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ]
+[2014-01-31 07:55:11,097 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:11,111 DEBUG] -  headermsg : CIWISDN1            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:11,111 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:11,111 DEBUG] -  headermsg : CIWISDN1            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:11,111 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:11,111 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:11,111 DEBUG] -  ResponseText :
+[2014-01-31 07:55:11,112 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:11,112 DEBUG] - Return Message (trimmed):00000        0   0                                                                                                                                   FRED STIFT                                        3731 N COUNTRY CLUB DR    APT 1829                  AVENTURA            FL3318017443731 N COUNTRY CLUB DR    # 18                      AVENTURA            FL331801733HMW39RSPDI FDD00FONRES                       900241000P  2500                      305IJANET.E.STEWART@SPRINT.COM                        201010081229111   X  U  AA   N     20080820  N                                                 3059327837*                                0
+[2014-01-31 07:55:11,112 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:11,112 DEBUG] - In CIWISDN1 :messageStr lenght : 4096
+[2014-01-31 07:55:11,112 DEBUG] - In CIWISDN1 :messageStr :  00000        0   0                                                                                                                                   FRED STIFT                                        3731 N COUNTRY CLUB DR    APT 1829                  AVENTURA            FL3318017443731 N COUNTRY CLUB DR    # 18                      AVENTURA            FL331801733HMW39RSPDI FDD00FONRES                       900241000P  2500                      305IJANET.E.STEWART@SPRINT.COM                        201010081229111   X  U  AA   N     20080820  N                                                 3059327837*                                0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+[2014-01-31 07:55:11,112 DEBUG] - In CIWISDN1 :messageStr lenght : 4096
+[2014-01-31 07:55:11,262 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:secCustomerName, value:FRED STIFT                                        , old value:FRED STIFT
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:arBillCycle, value:39, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:arFutureBillCycle, value:0 , old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:payAddress1, value:3731 N COUNTRY CLUB DR, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:payAddress2, value:APT 1829, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:payCity, value:AVENTURA            , old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:payState, value:FL, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:payZip, value:33180, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:brandID, value:SP, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:marketGSF, value:F, old value:
+[2014-01-31 07:55:11,263 DEBUG] - MMSession key:arIndicator, value:D, old value:
+[2014-01-31 07:55:11,263 DEBUG] - brandId SP
+[2014-01-31 07:55:11,263 DEBUG] - marketGSFF
+[2014-01-31 07:55:11,263 DEBUG] - selectARUser for customer :from CIWISDN1 : billCycle:39
+[2014-01-31 07:55:11,264 DEBUG] - selectARUser for customer : From CIWISDN1: futureBillCycle:0
+[2014-01-31 07:55:11,264 DEBUG] - selectARUser for customer : From CIWISDN1: custName:FRED STIFT
+[2014-01-31 07:55:11,264 DEBUG] - selectARUser for customer : From CIWISDN1: arIndicator:D
+[2014-01-31 07:55:11,264 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:11,264 DEBUG] - Calling if loop to call L2P for CustId : 497065725
+[2014-01-31 07:55:11,264 DEBUG] - selectARUser, L2P Call is skipped.
+[2014-01-31 07:55:11,264 DEBUG] - selectARUser, csuUserSecGrp [00003, 00002]
+[2014-01-31 07:55:11,264 DEBUG] - Inside arRequest() method: ret = ARAccountDisplay
+[2014-01-31 07:55:11,264 DEBUG] - Inside CSM: arprocess() method: ret=ARAccountDisplay
+[2014-01-31 07:55:11,264 DEBUG] - Finished processing AR request.  New page: ARAccountDisplay
+[2014-01-31 07:55:11,264 DEBUG] - %%%%% PROCESSING REQUEST: ARrequest, SENDING TO: ARAccountDisplay, FOR USER:jeg0376 (jeg0376) IP:144.229.32.1
+[2014-01-31 07:55:11,265 DEBUG] - PageInfo.arInit for ARAccountDisplay
+[2014-01-31 07:55:11,265 DEBUG] - NavPage:-2 pageId:119 title:AR Display User
+[2014-01-31 07:55:11,265 DEBUG] - Headers and Footers will not be displayed.
+[2014-01-31 07:55:11,265 DEBUG] - MMSession key:addUserMsg, value:, old value:
+[2014-01-31 07:55:11,265 DEBUG] - forward next view
+[2014-01-31 07:55:11,265 DEBUG] - forward next view
+[2014-01-31 07:55:11,265 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:11,265 DEBUG] - UserType In else block ### U
+[2014-01-31 07:55:11,265 DEBUG] - applicationId ### B
+[2014-01-31 07:55:11,265 DEBUG] - is BSG true
+[2014-01-31 07:55:11,265 DEBUG] - include:
+[2014-01-31 07:55:11,266 DEBUG] - include: navcsa.jsp
+[2014-01-31 07:55:11,266 DEBUG] - include: security/arDisplay.jsp
+[2014-01-31 07:55:11,266 DEBUG] - ****INSERT TAG::Parameter not found:backgroundColor****
+[2014-01-31 07:55:11,266 DEBUG] - ****INSERT TAG::Parameter not found:errorMessage****
+[2014-01-31 07:55:11,266 DEBUG] - ****INSERT TAG::Parameter not found:secMbuMessage****
+[2014-01-31 07:55:11,266 DEBUG] - ****INSERT TAG::Parameter not found:lastError****
+[2014-01-31 07:55:11,267 DEBUG] - ****INSERT TAG::Parameter not found:lastErrorMessage****
+[2014-01-31 07:55:11,267 DEBUG] - ****INSERT TAG::Parameter not found:secReqUserType****
+[2014-01-31 07:55:11,267 DEBUG] - ****INSERT TAG::Parameter not found:secGaUserName****
+[2014-01-31 07:55:11,267 DEBUG] - ****INSERT TAG::Parameter not found:secAccessLevel****
+[2014-01-31 07:55:11,267 DEBUG] - $$$$Field table look up for unknown variable:cust
+[2014-01-31 07:55:11,267 DEBUG] - include:
+[2014-01-31 07:55:11,267 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@4c428142 Page: ARrequest CSStat: 950
+[2014-01-31 07:55:16,273 DEBUG] - B***M***
+[2014-01-31 07:55:16,274 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARpayabillType IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:16,274 DEBUG] - ARpayabillType This is the requestpage
+[2014-01-31 07:55:16,274 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:16,274 DEBUG] - If secure mode is true
+[2014-01-31 07:55:16,274 DEBUG] - request.getHeader UserName jeg0376
+[2014-01-31 07:55:16,274 DEBUG] - username=jeg0376
+[2014-01-31 07:55:16,274 DEBUG] - from session UserName jeg0376
+[2014-01-31 07:55:16,274 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:16,274 DEBUG] -
+[2014-01-31 07:55:16,274 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:16,274 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:16,274 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:16,274 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISrequestingUserType AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISreqUserName AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISaccessLevel AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScustId AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeyValue AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISkeySelection AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISrole AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISroleId AND VALUE IS
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISapplicationId AND VALUE IS B
+[2014-01-31 07:55:16,275 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISentryApplication AND VALUE IS M
+[2014-01-31 07:55:16,275 DEBUG] - Processing request: ARpayabillType.  FirstTime: false
+[2014-01-31 07:55:16,275 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARpayabillType
+[2014-01-31 07:55:16,275 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARpayabillType
+[2014-01-31 07:55:16,275 DEBUG] - Processing ARPayABill page.
+[2014-01-31 07:55:16,275 DEBUG] - MMSession key:custId, value:497065725, old value:null
+[2014-01-31 07:55:16,275 DEBUG] - Inside CSM: arProcesPayaBill() method : user:= nullcustId:=nullcustomerNbr:=497065725
+[2014-01-31 07:55:16,276 DEBUG] - Inside CSM: arProcesPayaBill() method :arIndicator:=DBill Cycle:=39
+[2014-01-31 07:55:16,276 DEBUG] - Inside CSM: arProcesPayaBill() method :Calling ARPCOP59 Module as arIndicator is not M
+[2014-01-31 07:55:16,276 DEBUG] -  MQ Header : ARPCOP59            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:16,276 DEBUG] - Invoking Mainframe only call for ARPCOP59.
+[2014-01-31 07:55:16,376 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:16,376 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:16,489 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:16,489 DEBUG] -  Request Message : ARPCOP59            WWP     pvmkb060                                                                                                                                                                    ARPCOP59                      497065725 L                                          
+[2014-01-31 07:55:16,489 DEBUG] -  mqmessage : ARPCOP59            WWP     pvmkb060                                                                                                                                                                    ARPCOP59                      497065725 L                                                
+[2014-01-31 07:55:16,489 DEBUG] -  messageFromFile : : ARPCOP59            WWP     pvmkb060                                                                                                                                                                    ARPCOP59                      497065725 L                                        
+[2014-01-31 07:55:16,489 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:16,505 DEBUG] - Send Message:*ARPCOP59            WWP     pvmkb060                                                                                                                                                                    ARPCOP59                      497065725 L                                                               * (304)
+[2014-01-31 07:55:16,505 DEBUG] -  Receiving Message
+[2014-01-31 07:55:16,562 DEBUG] - Message Property Names:
+[2014-01-31 07:55:16,562 DEBUG] - TextMessage:[10511][ARPCOP59            WWP     pvmkb060                                                                                                                                                                    00000                              497065725 L                    49706572500000003000000000000000000000 000 NN           1.42           8.1301/17/2014                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ]
+[2014-01-31 07:55:16,576 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:16,591 DEBUG] -  headermsg : ARPCOP59            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:16,591 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:16,591 DEBUG] -  headermsg : ARPCOP59            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:16,591 DEBUG] -  ResponseCode :
+[2014-01-31 07:55:16,591 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:16,591 DEBUG] -  ResponseText :
+[2014-01-31 07:55:16,591 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:16,591 DEBUG] - Return Message (trimmed):00000                              497065725 L                    49706572500000003000000000000000000000 000 NN           1.42           8.1301/17/2014
+[2014-01-31 07:55:16,744 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:16,744 DEBUG] - ARPCOP59: Successfully get the Data for arcUser.497065725
+[2014-01-31 07:55:16,744 DEBUG] - MMSession key:navCustData1, value:Amount Currently Due: <B>$1.42</B><br/>, old value:null
+[2014-01-31 07:55:16,744 DEBUG] - MMSession key:CustId, value:497065725, old value:null
+[2014-01-31 07:55:16,744 DEBUG] - MMSession key:payAmount, value:1.42, old value:
+[2014-01-31 07:55:16,744 DEBUG] - Processing payment page: ARpayabillType
+[2014-01-31 07:55:16,744 DEBUG] - In ARPM::Evaluating parameters passed in:
+[2014-01-31 07:55:16,744 DEBUG] - In ARPM::key: *applicationId* value: *B*
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *remoteIpAddress* value: *144.229.32.1*
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *reqUserName* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *roleId* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *keyValue* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *role* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *accessLevel* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *entryApplication* value: *M*
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *custId* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *keySelection* value: **
+[2014-01-31 07:55:16,745 DEBUG] - In ARPM::key: *requestingUserType* value: **
+[2014-01-31 07:55:16,745 DEBUG] - MMSession key:payDate, value:01/31/2014, old value:
+[2014-01-31 07:55:16,745 DEBUG] - Inside CSM: arprocess() method: ret=ARpayabillType
+[2014-01-31 07:55:16,745 DEBUG] - Finished processing AR request.  New page: ARpayabillType
+[2014-01-31 07:55:16,745 DEBUG] - %%%%% PROCESSING REQUEST: ARpayabillType, SENDING TO: ARpayabillType, FOR USER:jeg0376 (jeg0376) IP:144.229.32.1
+[2014-01-31 07:55:16,745 DEBUG] - PageInfo.arInit for ARpayabillType
+[2014-01-31 07:55:16,745 DEBUG] - NavPage:2 pageId:125 title:Pay A Bill : Select Type
+[2014-01-31 07:55:16,745 DEBUG] - Inside arInit:address2:= AVENTURA            FL33180
+[2014-01-31 07:55:16,745 DEBUG] - MMSession key:navCustData1, value:3731 N COUNTRY CLUB DR, old value:Amount Currently Due: <B>$1.42</B><br/>
+[2014-01-31 07:55:16,745 DEBUG] - MMSession key:navCustData2, value:AVENTURA            FL33180, old value:null
+[2014-01-31 07:55:16,746 DEBUG] - forward next view
+[2014-01-31 07:55:16,746 DEBUG] - forward next view
+[2014-01-31 07:55:16,746 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:16,746 DEBUG] - UserType In else block ### U
+[2014-01-31 07:55:16,746 DEBUG] - applicationId ### B
+[2014-01-31 07:55:16,746 DEBUG] - is BSG true
+[2014-01-31 07:55:16,746 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:16,747 DEBUG] - include: arNav.jsp
+[2014-01-31 07:55:16,747 DEBUG] - include: payabill/ARtype.jsp
+[2014-01-31 07:55:16,747 DEBUG] - include: /omniture.jsp
+[2014-01-31 07:55:16,748 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:16,748 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@4c428142 Page: ARpayabillType CSStat: 475
+[2014-01-31 07:55:20,794 DEBUG] - B***M***
+[2014-01-31 07:55:20,794 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARpayabillInfoCheck IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:20,794 DEBUG] - ARpayabillInfoCheck This is the requestpage
+[2014-01-31 07:55:20,794 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:20,794 DEBUG] - If secure mode is true
+[2014-01-31 07:55:20,794 DEBUG] - request.getHeader UserName jeg0376
+[2014-01-31 07:55:20,794 DEBUG] - username=jeg0376
+[2014-01-31 07:55:20,794 DEBUG] - from session UserName jeg0376
+[2014-01-31 07:55:20,794 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:20,794 DEBUG] -
+[2014-01-31 07:55:20,794 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:20,794 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:20,795 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:20,795 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:20,795 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISpayment_method AND VALUE IS IE
+[2014-01-31 07:55:20,795 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISmessageflag AND VALUE IS Y
+[2014-01-31 07:55:20,795 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_ssn AND VALUE IS 999999999
+[2014-01-31 07:55:20,795 DEBUG] - Processing request: ARpayabillInfoCheck.  FirstTime: false
+[2014-01-31 07:55:20,795 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARpayabillInfoCheck
+[2014-01-31 07:55:20,795 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARpayabillInfoCheck
+[2014-01-31 07:55:20,795 DEBUG] - Processing ARPayABill page.
+[2014-01-31 07:55:20,795 DEBUG] - Processing payment page: ARpayabillInfoCheck
+[2014-01-31 07:55:20,795 DEBUG] - In ARPM::Evaluating parameters passed in:
+[2014-01-31 07:55:20,795 DEBUG] - In ARPM::key: *messageflag* value: *Y*
+[2014-01-31 07:55:20,795 DEBUG] - In ARPM::key: *remoteIpAddress* value: *144.229.32.1*
+[2014-01-31 07:55:20,796 DEBUG] - In ARPM::key: *payment_method* value: *IE*
+[2014-01-31 07:55:20,796 DEBUG] - In ARPM::key: *check_ssn* value: *999999999*
+[2014-01-31 07:55:20,796 DEBUG] - Inside CSM: arprocess() method: ret=ARpayabillInfoCheck
+[2014-01-31 07:55:20,796 DEBUG] - Finished processing AR request.  New page: ARpayabillInfoCheck
+[2014-01-31 07:55:20,796 DEBUG] - %%%%% PROCESSING REQUEST: ARpayabillInfoCheck, SENDING TO: ARpayabillInfoCheck, FOR USER:jeg0376 (jeg0376) IP:144.229.32.1
+[2014-01-31 07:55:20,796 DEBUG] - PageInfo.arInit for ARpayabillInfoCheck
+[2014-01-31 07:55:20,796 DEBUG] - NavPage:2 pageId:128 title:Pay A Bill : Bank Details
+[2014-01-31 07:55:20,796 DEBUG] - Inside arInit:address2:= AVENTURA            FL33180
+[2014-01-31 07:55:20,796 DEBUG] - MMSession key:navCustData1, value:3731 N COUNTRY CLUB DR, old value:3731 N COUNTRY CLUB DR
+[2014-01-31 07:55:20,796 DEBUG] - MMSession key:navCustData2, value:AVENTURA            FL33180, old value:AVENTURA            FL33180
+[2014-01-31 07:55:20,797 DEBUG] - forward next view
+[2014-01-31 07:55:20,797 DEBUG] - forward next view
+[2014-01-31 07:55:20,797 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:20,797 DEBUG] - UserType In else block ### U
+[2014-01-31 07:55:20,797 DEBUG] - applicationId ### B
+[2014-01-31 07:55:20,797 DEBUG] - is BSG true
+[2014-01-31 07:55:20,797 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:20,798 DEBUG] - include: arNav.jsp
+[2014-01-31 07:55:20,798 DEBUG] - include: payabill/ARinfoCheck.jsp
+[2014-01-31 07:55:20,799 DEBUG] - ****INSERT TAG::Parameter not found:payTypeDefSelected****
+[2014-01-31 07:55:20,800 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:20,800 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@4c428142 Page: ARpayabillInfoCheck CSStat: 7
+[2014-01-31 07:55:32,908 DEBUG] - B***M***
+[2014-01-31 07:55:32,908 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ataglance IP: 146.209.159.23 %%%%%
+[2014-01-31 07:55:32,908 DEBUG] - ataglance This is the requestpage
+[2014-01-31 07:55:32,908 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:32,908 DEBUG] - If secure mode is true
+[2014-01-31 07:55:32,908 DEBUG] - request.getHeader UserName phillir1
+[2014-01-31 07:55:32,908 DEBUG] - username=phillir1
+[2014-01-31 07:55:32,908 DEBUG] - No ModelManager instance found in the session for phillir1.  Performing initialize.
+[2014-01-31 07:55:32,908 DEBUG] - from session UserName phillir1
+[2014-01-31 07:55:32,908 DEBUG] - Inside Model Manager: init() method
+[2014-01-31 07:55:32,908 DEBUG] - MMSession key:entryApplication, value:M, old value:null
+[2014-01-31 07:55:32,909 DEBUG] - MMSession key:applicationId, value:B, old value:null
+[2014-01-31 07:55:32,909 DEBUG] - MMSession key:csaname, value:phillir1, old value:null
+[2014-01-31 07:55:32,909 DEBUG] - ************Inside ModelManager:retrieveData******************
+[2014-01-31 07:55:32,909 DEBUG] -  beofre getCustomerBean
+[2014-01-31 07:55:32,910 DEBUG] -  beofre validateLogin
+[2014-01-31 07:55:32,910 DEBUG] - AppId in ModelManager before validateLogin:B
+[2014-01-31 07:55:32,910 DEBUG] - Verbose log value from Customer EJB:true
+[2014-01-31 07:55:32,911 DEBUG] -  MQ Header : CIWISLN0            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:32,911 DEBUG] - Application Id:B
+[2014-01-31 07:55:33,013 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:33,013 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:33,125 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:33,126 DEBUG] -  Request Message : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          phillir1                BM
+[2014-01-31 07:55:33,126 DEBUG] -  mqmessage : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          phillir1                BM
+[2014-01-31 07:55:33,126 DEBUG] -  messageFromFile : : CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          phillir1                BM
+[2014-01-31 07:55:33,126 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:33,143 DEBUG] - Send Message:*CIWISLN0            WWP     pvmkb060                                                                                                                                                                    CIWISLN0                                                          phillir1                BM * (293)
+[2014-01-31 07:55:33,143 DEBUG] -  Receiving Message
+[2014-01-31 07:55:33,215 DEBUG] - Message Property Names:
+[2014-01-31 07:55:33,215 DEBUG] - TextMessage:[4296][CIWISLN0            WWP     pvmkb060                                        00000                                                                                                                        00000        0   0                                                                                                                                   BXD                                                                                                                                                                                                                                  H4 ISSPHILLIR1       927336380B    PAM  AA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ]
+[2014-01-31 07:55:33,230 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:33,244 DEBUG] -  headermsg : CIWISLN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:33,244 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:33,244 DEBUG] -  headermsg : CIWISLN0            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:33,244 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:33,244 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:33,245 DEBUG] -  ResponseText :
+[2014-01-31 07:55:33,245 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:33,245 DEBUG] - Return Message (trimmed):00000        0   0                                                                                                                                   BXD                                                                                                                                                                                                                                  H4 ISSPHILLIR1       927336380B    PAM  AA
+[2014-01-31 07:55:33,245 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:33,395 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:33,395 DEBUG] - AppId in ModelManager after validateLogin:B
+[2014-01-31 07:55:33,395 DEBUG] - after getClassOfService
+[2014-01-31 07:55:33,395 DEBUG] - after getClassOfService()
+[2014-01-31 07:55:33,395 DEBUG] -  before getMysamUser
+[2014-01-31 07:55:33,395 DEBUG] - ************ro********com.sprint.mysam.returnobjects.AccountRetrievalReturnObject@44632933
+[2014-01-31 07:55:33,395 DEBUG] - Determining if more calls are needed.  HierMaster flag:false
+[2014-01-31 07:55:33,395 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:33,395 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:33,395 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:33,395 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:33,396 DEBUG] - Determining if populateData before
+[2014-01-31 07:55:33,396 DEBUG] - MySamUser:getToken()= ISSphillir1       927336380B
+[2014-01-31 07:55:33,396 DEBUG] -  MQ Header : CIWISDN1            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:33,496 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:33,496 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:33,611 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:33,611 DEBUG] -  Request Message : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSphillir1       927336380B
+[2014-01-31 07:55:33,611 DEBUG] -  mqmessage : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSphillir1       927336380B
+[2014-01-31 07:55:33,611 DEBUG] -  messageFromFile : : CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSphillir1       927336380B
+[2014-01-31 07:55:33,611 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:33,627 DEBUG] - Send Message:*CIWISDN1            WWP     pvmkb060                                                                                                                                                                    CIWISDN1                    ISSphillir1       927336380B          * (266)
+[2014-01-31 07:55:33,627 DEBUG] -  Receiving Message
+[2014-01-31 07:55:33,698 DEBUG] - Message Property Names:
+[2014-01-31 07:55:33,698 DEBUG] - TextMessage:[4296][CIWISDN1            WWP     pvmkb060                                        00000                                                                                                                        00000        0   0                                                                                                                                   INVISTA                                           25876 DUPONT ROAD                                   LAUREL              DE19956    25876 DUPONT ROAD                                   LAUREL              DE19956    4TZ52CSPH4 DCD00NADB2MBBCCX                  0        P  0        M            Y   302CRENEE.PHILLIPS-2@INVISTA.COM                      201210041250004  Y AMB  CA   YH4 927336380A 00000000  N                                   A N           0000000000RENEE PHILLIPS                   0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ]
+[2014-01-31 07:55:33,712 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:33,726 DEBUG] -  headermsg : CIWISDN1            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:33,726 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:33,726 DEBUG] -  headermsg : CIWISDN1            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:33,726 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:33,726 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:33,726 DEBUG] -  ResponseText :
+[2014-01-31 07:55:33,727 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:33,727 DEBUG] - Return Message (trimmed):00000        0   0                                                                                                                                   INVISTA                                           25876 DUPONT ROAD                                   LAUREL              DE19956    25876 DUPONT ROAD                                   LAUREL              DE19956    4TZ52CSPH4 DCD00NADB2MBBCCX                  0        P  0        M            Y   302CRENEE.PHILLIPS-2@INVISTA.COM                      201210041250004  Y AMB  CA   YH4 927336380A 00000000  N                                   A N           0000000000RENEE PHILLIPS                   0
+[2014-01-31 07:55:33,727 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:33,727 DEBUG] - In CIWISDN1 :messageStr lenght : 4096
+[2014-01-31 07:55:33,727 DEBUG] - In CIWISDN1 :messageStr :  00000        0   0                                                                                                                                   INVISTA                                           25876 DUPONT ROAD                                   LAUREL              DE19956    25876 DUPONT ROAD                                   LAUREL              DE19956    4TZ52CSPH4 DCD00NADB2MBBCCX                  0        P  0        M            Y   302CRENEE.PHILLIPS-2@INVISTA.COM                      201210041250004  Y AMB  CA   YH4 927336380A 00000000  N                                   A N           0000000000RENEE PHILLIPS                   0                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+[2014-01-31 07:55:33,727 DEBUG] - In CIWISDN1 :messageStr lenght : 4096
+[2014-01-31 07:55:33,877 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:33,877 DEBUG] - CustomerBean : AccountRetrievalReturnObject(): datacenter= : D
+[2014-01-31 07:55:33,877 DEBUG] - WWDCO270: In method setDataCenter()data center is not SA. Set DallasConnection
+[2014-01-31 07:55:33,877 DEBUG] -  MQ Header : XAWWIQDA            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:33,877 DEBUG] - IQ Call: Skipping call for Invoice Format of C (MBA).
+[2014-01-31 07:55:33,878 DEBUG] -  MQ Header : ARPCOP59            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:33,878 DEBUG] - Invoking call for ARPCOP59.
+[2014-01-31 07:55:33,880 DEBUG] - ArData:populateDataFromDb:Inside for customer= 927336380
+[2014-01-31 07:55:33,915 DEBUG] - ArData:populateDataFromDb:from ArData Table: [Ljava.lang.String;@781001fd
+[2014-01-31 07:55:33,915 DEBUG] - ArData:populateData: Before throwing Naming Exception
+[2014-01-31 07:55:33,915 DEBUG] - ARPCOP59: Data found.  Getting fields from DB.
+[2014-01-31 07:55:33,915 DEBUG] - Generating the invoice point.  AR Error:50731  IQ Error:null
+[2014-01-31 07:55:33,915 DEBUG] - Completed populateData.  Return Code:
+[2014-01-31 07:55:33,916 DEBUG] - retrieveData() for customer : billCycle:52
+[2014-01-31 07:55:33,916 DEBUG] - retrieveData() for customer : futureBillCycle:0
+[2014-01-31 07:55:33,916 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:33,916 DEBUG] - retrieveData() for customer : getSensitiveCustomersBillCycles : 75
+[2014-01-31 07:55:33,916 DEBUG] - retrieveData() for customer : getSensitiveCustomersBillCycles : 76
+[2014-01-31 07:55:33,916 DEBUG] - Determining if populateData after
+[2014-01-31 07:55:33,916 DEBUG] - MMSession key:message, value:, old value:null
+[2014-01-31 07:55:33,916 DEBUG] - REMOVING MMSESSION KEY:lastError, old value:null
+[2014-01-31 07:55:33,916 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:33,916 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:33,916 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:33,916 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:33,916 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:33,916 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:33,917 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:33,917 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:33,917 DEBUG] - ModelManager:retrieveData():msu=[ firstName=null, lastName null, userStatusCodeA, userType=B, arUserType=null, username=phillir1, userLevel=P, accessLevelAM]
+[2014-01-31 07:55:33,917 DEBUG] - ModelManager:retrieveData():newcsu=null
+[2014-01-31 07:55:33,917 DEBUG] - Retrieving user information from siteminder for phillir1
+[2014-01-31 07:55:33,917 DEBUG] - SM.readUserRecord()::Called
+[2014-01-31 07:55:33,918 DEBUG] - SecurityBean.getUserInfo for user: phillir1
+[2014-01-31 07:55:34,146 DEBUG] - SBTime1:57 SBTime2:171
+[2014-01-31 07:55:34,146 DEBUG] - SecurityBean.getUserInfo: 00000            phillips               renee            wwadmin1  Fri Jan 31 06:55:32 CST 2014            wwadmin1  Fri Jan 31 06:55:32 CST 2014       phillir1                        ACTIVE   Fri Mar 8 02:39:05 CST 2013                                                                                                                                                         Thu Oct 4 12:49:56 CDT 2012 -1                 ldd.ci.svpbls
+[2014-01-31 07:55:34,146 DEBUG] - SM.readUserRecord()::end (00000            phillips               renee            wwadmin1  Fri Jan 31 06:55:32 CST 2014            wwadmin1  Fri Jan 31 06:55:32 CST 2014       phillir1                        ACTIVE   Fri Mar 8 02:39:05 CST 2013                                                                                                                                                         Thu Oct 4 12:49:56 CDT 2012 -1                 ldd.ci.svpbls) SMTime:229
+[2014-01-31 07:55:34,146 DEBUG] - ModelManager:retrieveData():user_info=00000            phillips               renee            wwadmin1  Fri Jan 31 06:55:32 CST 2014            wwadmin1  Fri Jan 31 06:55:32 CST 2014       phillir1                        ACTIVE   Fri Mar 8 02:39:05 CST 2013                                                                                                                                                         Thu Oct 4 12:49:56 CDT 2012 -1                 ldd.ci.svpbls
+[2014-01-31 07:55:34,147 DEBUG] - Retrieving User Roles from siteminder for phillir1
+[2014-01-31 07:55:34,147 DEBUG] - SM.readRoles()::Called
+[2014-01-31 07:55:34,147 DEBUG] - SM.readRoles()::Calling ejb method readUserRoles()
+[2014-01-31 07:55:34,148 DEBUG] - Reading user roles for:phillir1
+[2014-01-31 07:55:34,404 DEBUG] - roleId= ldd.ci.svpbls name= Created for BSG View & pay Bills BSG role category=ldd.ci
+[2014-01-31 07:55:34,404 DEBUG] - roleId= ldd.fj.spm name= PM SIDM Profile Tool role category=ldd.fj
+[2014-01-31 07:55:34,404 DEBUG] - roleId= ldd.ww.issuup name= ISS User Update role category=ldd.ww
+[2014-01-31 07:55:34,404 DEBUG] - roleId= ldd.xp.portal name= XP-PORTAL role category=ldd.xp
+[2014-01-31 07:55:34,404 DEBUG] - SM.readRoles()::end (00000              ldd.ci       ldd.ci.svpbls        Created for BSG View & pay Bills BSG              ldd.fj          ldd.fj.spm                        PM SIDM Profile Tool              ldd.ww       ldd.ww.issuup                             ISS User Update              ldd.xp       ldd.xp.portal                                   XP-PORTAL)
+[2014-01-31 07:55:34,405 DEBUG] - Retrieving User Roles from siteminder for [       ldd.ci.svpbls,           ldd.fj.spm,        ldd.ww.issuup,        ldd.xp.portal]
+[2014-01-31 07:55:34,405 DEBUG] - Return for readRoles:*[       ldd.ci.svpbls,           ldd.fj.spm,        ldd.ww.issuup,        ldd.xp.portal]*
+[2014-01-31 07:55:34,405 DEBUG] - REMOVING MMSESSION KEY:mCSAUser, old value:null
+[2014-01-31 07:55:34,405 DEBUG] - ModelManager:retrieveData():arusertype=null
+[2014-01-31 07:55:34,405 DEBUG] - ModelManager:retrieveData():newcsu=null
+[2014-01-31 07:55:34,405 DEBUG] - Setting first/last name: renee/phillips
+[2014-01-31 07:55:34,405 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager. Checking condition for masking data.
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager.PropertiesManager.getSensitiveCustomersBillCycles() : [75, 76]
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager. ro.getAccount().getBillCycle() : 52
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager. ro.getAccount().getFutureBillCycle() : 0
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager. PropertiesManager.getSensitiveCustomersBillCycles() : 75
+[2014-01-31 07:55:34,405 DEBUG] - In ModelManager. PropertiesManager.getSensitiveCustomersBillCycles() : 76
+[2014-01-31 07:55:34,405 DEBUG] - csu is null
+[2014-01-31 07:55:34,405 DEBUG] - msu.getSecurityGroup() is null
+[2014-01-31 07:55:34,405 DEBUG] - Account:=[ custId=927336380, name INVISTA                                           , physicalAddress[ Address 1=25876 DUPONT ROAD         , Address 2=                          , City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], billingAddress=[ Address 1=25876 DUPONT ROAD, Address 2=, City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], arIndicator=C, cityStateZip=LAUREL, DE  19956, hierarchyLevel=H4 , userType]
+[2014-01-31 07:55:34,406 DEBUG] - called mm init method:
+[2014-01-31 07:55:34,406 DEBUG] - ModelManager stored in session: com.sprint.mysam.model.ModelManager@6548f6b8.
+[2014-01-31 07:55:34,406 DEBUG] - requestProcessor in session is null. so initializing it....
+[2014-01-31 07:55:34,406 DEBUG] -
+[2014-01-31 07:55:34,406 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:34,406 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:34,406 DEBUG] - In Controller Servlet:Calling  Request Processor  process()  method
+[2014-01-31 07:55:34,406 DEBUG] - Inside RequestProcessor --- process() method
+[2014-01-31 07:55:34,406 DEBUG] - RP: Value of Application is B
+[2014-01-31 07:55:34,406 DEBUG] - RP: Value of Application isBSG true
+[2014-01-31 07:55:34,406 DEBUG] - Processing request: ataglance.  FirstTime: true
+[2014-01-31 07:55:34,407 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:34,407 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:34,407 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:34,407 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:34,407 DEBUG] - BSG customer.  Portal redirected: false
+[2014-01-31 07:55:34,407 DEBUG] - HierarchyManager: Evaluating ataglance   HierLevel: H4
+[2014-01-31 07:55:34,407 DEBUG] - Finished HierarchyManager.  requested:ataglance sending to:ataglance
+[2014-01-31 07:55:34,408 DEBUG] - Crypt::encrypting text.
+[2014-01-31 07:55:34,408 DEBUG] - if firsttime is true, after validateLogin: thePage: ataglance
+[2014-01-31 07:55:34,408 DEBUG] - Setting return attribute:(*clearCust*,*927336380*)
+[2014-01-31 07:55:34,408 DEBUG] - Setting return attribute:(*encryptedCust*,*ff3d41fc66388cdde633a6d74d04101f*)
+[2014-01-31 07:55:34,408 DEBUG] - Finished processing request.  New page: ataglance
+[2014-01-31 07:55:34,408 DEBUG] - %%%%% PROCESSING REQUEST: ataglance, SENDING TO: ataglance, FOR USER:phillir1 IP:146.209.159.23
+[2014-01-31 07:55:34,409 DEBUG] - PageInfo.init for ataglance
+[2014-01-31 07:55:34,409 DEBUG] - Account:=[ custId=927336380, name INVISTA                                           , physicalAddress[ Address 1=25876 DUPONT ROAD         , Address 2=                          , City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], billingAddress=[ Address 1=25876 DUPONT ROAD, Address 2=, City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], arIndicator=C, cityStateZip=LAUREL, DE  19956, hierarchyLevel=H4 , userType]
+[2014-01-31 07:55:34,409 DEBUG] - NavPage:0 pageId:0 title:Account Summary
+[2014-01-31 07:55:34,409 DEBUG] - PageInfo.getViewBillLink():Final ret viewbillsMBA?pageRequest=viewBills
+[2014-01-31 07:55:34,409 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:34,409 DEBUG] - PageInfo.setNavButtons() billCycles :[75, 76]
+[2014-01-31 07:55:34,409 DEBUG] - PageInfo.setNavButtons() msa.getBillCycle() : 52
+[2014-01-31 07:55:34,409 DEBUG] - PageInfo.setNavButtons() msa.getFutureBillCycle() : 0
+[2014-01-31 07:55:34,409 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:34,409 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:34,409 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:34,409 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:34,409 DEBUG] - MMSession key:navCustData1, value:25876 DUPONT ROAD, old value:null
+[2014-01-31 07:55:34,410 DEBUG] - MMSession key:navCustData2, value:LAUREL, DE  19956, old value:null
+[2014-01-31 07:55:34,410 DEBUG] - forward next view
+[2014-01-31 07:55:34,410 DEBUG] - forward next view
+[2014-01-31 07:55:34,410 DEBUG] - UserType is Bsg - In else block ### true
+[2014-01-31 07:55:34,410 DEBUG] - UserType In else block ### B
+[2014-01-31 07:55:34,410 DEBUG] - applicationId ### B
+[2014-01-31 07:55:34,410 DEBUG] - is BSG true
+[2014-01-31 07:55:34,410 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:34,411 DEBUG] - include: nav.jsp
+[2014-01-31 07:55:34,412 DEBUG] - include: ataglance.jsp
+[2014-01-31 07:55:34,412 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:34,412 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:34,412 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:34,412 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:34,412 DEBUG] - include: /omniture.jsp
+[2014-01-31 07:55:34,413 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:34,413 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@6548f6b8 Page: ataglance CSStat: 1506
+[2014-01-31 07:55:38,435 DEBUG] - B***M***
+[2014-01-31 07:55:38,435 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARpayabillUpdateCheck IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:38,435 DEBUG] - ARpayabillUpdateCheck This is the requestpage
+[2014-01-31 07:55:38,435 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:38,436 DEBUG] - If secure mode is true
+[2014-01-31 07:55:38,436 DEBUG] - request.getHeader UserName gxs6166
+[2014-01-31 07:55:38,436 DEBUG] - username=gxs6166
+[2014-01-31 07:55:38,436 DEBUG] - from session UserName gxs6166
+[2014-01-31 07:55:38,436 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:38,436 DEBUG] -
+[2014-01-31 07:55:38,436 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:38,436 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:38,436 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:38,436 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:38,436 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_type AND VALUE IS I
+[2014-01-31 07:55:38,436 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_first_name AND VALUE IS Donald
+[2014-01-31 07:55:38,436 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_last_name AND VALUE IS Buckner
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_business_name AND VALUE IS
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_address_1 AND VALUE IS 2839 24TH AVE S
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_address_2 AND VALUE IS
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_city AND VALUE IS SAINT CLOUD
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_state AND VALUE IS MN
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_zip_code AND VALUE IS 56301
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_home_phone_1 AND VALUE IS 651
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_home_phone_2 AND VALUE IS 457
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_home_phone_3 AND VALUE IS 3853
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_ar_email_id AND VALUE IS noemail@sprint.com
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_bank_routing_number AND VALUE IS 096015232
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_bank_account_number AND VALUE IS 300278469
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISpay_amount AND VALUE IS 9.51
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISpay_date AND VALUE IS 01/31/2014
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY ISmessageflag AND VALUE IS Y
+[2014-01-31 07:55:38,437 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IScheck_ssn AND VALUE IS 999999999
+[2014-01-31 07:55:38,438 DEBUG] - Processing request: ARpayabillUpdateCheck.  FirstTime: false
+[2014-01-31 07:55:38,438 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARpayabillUpdateCheck
+[2014-01-31 07:55:38,438 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARpayabillUpdateCheck
+[2014-01-31 07:55:38,438 DEBUG] - Processing ARPayABill page.
+[2014-01-31 07:55:38,438 DEBUG] - Processing payment page: ARpayabillUpdateCheck
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::Evaluating parameters passed in:
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_ar_email_id* value: *noemail@sprint.com*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_bank_account_number* value: *Not Displayed*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_zip_code* value: *56301*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_last_name* value: *Buckner*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_bank_routing_number* value: *096015232*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_home_phone_3* value: *3853*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_home_phone_2* value: *457*
+[2014-01-31 07:55:38,438 DEBUG] - In ARPM::key: *check_home_phone_1* value: *651*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_business_name* value: **
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_city* value: *SAINT CLOUD         *
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *remoteIpAddress* value: *144.229.32.1*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_state* value: *MN*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *pay_date* value: *01/31/2014*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *pay_amount* value: *9.51*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_ssn* value: *999999999*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_address_2* value: **
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_address_1* value: *2839 24TH AVE S*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_first_name* value: *Donald*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *messageflag* value: *Y*
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::key: *check_type* value: *I*
+[2014-01-31 07:55:38,439 DEBUG] - MMSession key:payAmount, value:9.51, old value:9.51
+[2014-01-31 07:55:38,439 DEBUG] - MMSession key:ARpayRevisePage, value:ARpayabillInfocheck, old value:null
+[2014-01-31 07:55:38,439 DEBUG] - In ARPM::SSN Value :999999999
+[2014-01-31 07:55:38,440 DEBUG] - In ARPM::New bank account:[BankAddress:Donald|Buckner||I|999999999|[ Address 1=2839 24TH AVE S, Address 2=, City=SAINT CLOUD         , State/Province=MN, Postal Code=56301, country=USA]|6514573853|096015232|************8469]
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:newBankAccount, value:[BankAddress:Donald|Buckner||I|999999999|[ Address 1=2839 24TH AVE S, Address 2=, City=SAINT CLOUD         , State/Province=MN, Postal Code=56301, country=USA]|6514573853|096015232|************8469], old value:null
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payOptionInfo, value:Bank Account ************8469, old value:null
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payDate, value:01/31/2014, old value:01/31/2014
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payAccountNumber, value:************8469, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payRoutingNumber, value:096015232, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payFirstName, value:Donald, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payLastName, value:Buckner, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payBusinessName, value:, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:paySsn, value:999999999, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payAddress1, value:2839 24TH AVE S, old value:2839 24TH AVE S
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payAddress2, value:, old value:
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payCity, value:SAINT CLOUD         , old value:SAINT CLOUD
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payState, value:MN, old value:MN
+[2014-01-31 07:55:38,440 DEBUG] - MMSession key:payZip, value:56301, old value:56301
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payPhone1, value:651, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payPhone2, value:457, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payPhone3, value:3853, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payCheckIEChecked, value:, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payTypeDefSelected, value:, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:arEmailId, value:noemail@sprint.com, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payTypeIndSelected, value:SELECTED, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payTypeBusSelected, value:, old value:
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:paySelectedOption, value:IE, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:newPaymentOptionCode, value:, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:newBillAgencyCode, value:I, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - MMSession key:payOptionText, value:One-Time Quick Pay with Bank Account, old value:null
+[2014-01-31 07:55:38,441 DEBUG] - In ARPM::Processing Check: One-Time Quick Pay.
+[2014-01-31 07:55:38,441 DEBUG] - Inside CSM: arprocess() method: ret=ARpayabillConfirm
+[2014-01-31 07:55:38,441 DEBUG] - Finished processing AR request.  New page: ARpayabillConfirm
+[2014-01-31 07:55:38,442 DEBUG] - %%%%% PROCESSING REQUEST: ARpayabillUpdateCheck, SENDING TO: ARpayabillConfirm, FOR USER:gxs6166 (gxs6166) IP:144.229.32.1
+[2014-01-31 07:55:38,442 DEBUG] - PageInfo.arInit for ARpayabillConfirm
+[2014-01-31 07:55:38,442 DEBUG] - NavPage:2 pageId:129 title:Pay A Bill : Confirmation
+[2014-01-31 07:55:38,442 DEBUG] - Inside arInit:address2:= SAINT CLOUD         MN56301
+[2014-01-31 07:55:38,442 DEBUG] - MMSession key:navCustData1, value:2839 24TH AVE S, old value:2839 24TH AVE S
+[2014-01-31 07:55:38,442 DEBUG] - MMSession key:navCustData2, value:SAINT CLOUD         MN56301, old value:SAINT CLOUD         MN56301
+[2014-01-31 07:55:38,442 DEBUG] - forward next view
+[2014-01-31 07:55:38,442 DEBUG] - forward next view
+[2014-01-31 07:55:38,442 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:38,442 DEBUG] - UserType In else block ### S
+[2014-01-31 07:55:38,442 DEBUG] - applicationId ### B
+[2014-01-31 07:55:38,443 DEBUG] - is BSG true
+[2014-01-31 07:55:38,443 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:38,444 DEBUG] - include: arNav.jsp
+[2014-01-31 07:55:38,444 DEBUG] - include: payabill/ARconfirmation.jsp
+[2014-01-31 07:55:38,444 DEBUG] - ****INSERT TAG::Parameter not found:payNotice****
+[2014-01-31 07:55:38,444 DEBUG] - include: /omniture.jsp
+[2014-01-31 07:55:38,445 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:38,445 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@2ba19831 Page: ARpayabillUpdateCheck CSStat: 10
+[2014-01-31 07:55:43,096 DEBUG] - B***M***
+[2014-01-31 07:55:43,097 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: ARpayabillPost IP: 144.229.32.1 %%%%%
+[2014-01-31 07:55:43,097 DEBUG] - ARpayabillPost This is the requestpage
+[2014-01-31 07:55:43,097 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:43,097 DEBUG] - If secure mode is true
+[2014-01-31 07:55:43,097 DEBUG] - request.getHeader UserName gxs6166
+[2014-01-31 07:55:43,097 DEBUG] - username=gxs6166
+[2014-01-31 07:55:43,097 DEBUG] - from session UserName gxs6166
+[2014-01-31 07:55:43,097 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:43,097 DEBUG] -
+[2014-01-31 07:55:43,097 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:43,097 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:43,097 DEBUG] - In Controller Servlet:Calling AR Request Processor arProcess() methodnull
+[2014-01-31 07:55:43,097 DEBUG] - Inside RequestProcessor --- arProcess() method
+[2014-01-31 07:55:43,098 DEBUG] - &&&& Inside RP: arProcess() method: REQUEST KEY IStime AND VALUE IS 0
+[2014-01-31 07:55:43,098 DEBUG] - Processing request: ARpayabillPost.  FirstTime: false
+[2014-01-31 07:55:43,098 DEBUG] - Inside RequestProcessor: arProcess() method: Processing AR page: ARpayabillPost
+[2014-01-31 07:55:43,098 DEBUG] - Inside CSM: arprocess() method: Evaluating AR page: ARpayabillPost
+[2014-01-31 07:55:43,098 DEBUG] - Processing ARPayABill page.
+[2014-01-31 07:55:43,098 DEBUG] - Processing payment page: ARpayabillPost
+[2014-01-31 07:55:43,098 DEBUG] - In ARPM::Evaluating parameters passed in:
+[2014-01-31 07:55:43,098 DEBUG] - In ARPM::key: *remoteIpAddress* value: *144.229.32.1*
+[2014-01-31 07:55:43,098 DEBUG] - In ARPM::key: *time* value: *0*
+[2014-01-31 07:55:43,098 DEBUG] - Inside ARPaymentManager : processPostPayment() method:newPayOpt:= newPaySel:=IEpayDate:=01/31/2014paySchedDate :=01312014payAmount:=9.51
+[2014-01-31 07:55:43,098 DEBUG] - Processing AR payment for selected payOpt:IE
+[2014-01-31 07:55:43,098 DEBUG] - Inside ARPaymentManager: processPostPayment() method: Calling postCheckingPayment: billAgency:=I
+[2014-01-31 07:55:43,098 DEBUG] - ARPaymentManager: calling checkfree : arbillCycle:=5 arfutbillCycle :=0
+[2014-01-31 07:55:43,099 DEBUG] - ARPaymentManager: calling checkfree with param423181487,[BankAddress:Donald|Buckner||I|999999999|[ Address 1=2839 24TH AVE S, Address 2=, City=SAINT CLOUD         , State/Province=MN, Postal Code=56301, country=USA]|6514573853|096015232|************8469],noemail@sprint.com,9.51,01312014
+[2014-01-31 07:55:43,100 DEBUG] - In enrollAndPay
+[2014-01-31 07:55:43,100 DEBUG] - Inside BankDraftBean :In enrollAndPay method: SSN/Federal Tax Id:= 999999999
+[2014-01-31 07:55:43,100 DEBUG] - CFW::getting properties file instance.
+[2014-01-31 07:55:43,101 DEBUG] - CFW::config return:true*Successfully loaded config file
+[2014-01-31 07:55:43,101 DEBUG] - CFW::In enroll and pay for 423181487
+[2014-01-31 07:55:43,101 DEBUG] - CFW::In enroll and pay for : SSN or federalTaxId999999999
+[2014-01-31 07:55:43,102 DEBUG] - CFW::In querySubscriberInfo for 423181487
+[2014-01-31 07:55:43,102 DEBUG] - CFW::In processCommand checkfree.businterface.csapi.CFCmdGetSubscriber for 423181487
+[2014-01-31 07:55:43,122 DEBUG] - CFW::In processCommand: After setAuthRecord
+[2014-01-31 07:55:43,123 DEBUG] - CFW::In processCommand: get new CFCommandProcessor
+[2014-01-31 07:55:43,123 DEBUG] - CFW::In processCommand: before calling cmdProcessor.Process
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:done=true
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:return code=0 error text=Error 0: null
+[2014-01-31 07:55:43,545 DEBUG] - CFW::Time to process command for 423181487:422
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In querySubscriberInfo in if loop for processComand
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In modifySubscriberInfo for 423181487
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In modifySubscriberInfo for: SSN/ FederalTaxId: 999999999
+[2014-01-31 07:55:43,545 DEBUG] - CWF::In updateSubscriber for 423181487
+[2014-01-31 07:55:43,545 DEBUG] - CWF::In updateSubscriber for: SSN/Federal Tax Id: 999999999
+[2014-01-31 07:55:43,545 DEBUG] - CFW::Creating/Updating CFSubscriber 423181487 updating:true current:checkfree.busobjects.common.CFSubscriber@65be374c
+[2014-01-31 07:55:43,545 DEBUG] - CFW::In createCFSubscriber for: SSN/ FederalTaxId: 999999999
+[2014-01-31 07:55:43,546 DEBUG] - CFW::New Subscriber:checkfree.busobjects.common.CFSubscriber@65be374c
+[2014-01-31 07:55:43,546 DEBUG] - CFW::In processCommand checkfree.businterface.csapi.CFCmdModifySubscriber for 423181487
+[2014-01-31 07:55:43,566 DEBUG] - CFW::In processCommand: After setAuthRecord
+[2014-01-31 07:55:43,566 DEBUG] - CFW::In processCommand: get new CFCommandProcessor
+[2014-01-31 07:55:43,566 DEBUG] - CFW::In processCommand: before calling cmdProcessor.Process
+[2014-01-31 07:55:43,726 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:done=true
+[2014-01-31 07:55:43,726 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:return code=0 error text=Error 0: SUCCESSFUL
+[2014-01-31 07:55:43,726 DEBUG] - CFW::Time to process command for 423181487:160
+[2014-01-31 07:55:43,726 DEBUG] - CFW::In getBankAccountInfo for 423181487
+[2014-01-31 07:55:43,726 DEBUG] - CFW::In processCommand checkfree.businterface.csapi.CFCmdListBillPmtAcctInfo for 423181487
+[2014-01-31 07:55:43,746 DEBUG] - CFW::In processCommand: After setAuthRecord
+[2014-01-31 07:55:43,747 DEBUG] - CFW::In processCommand: get new CFCommandProcessor
+[2014-01-31 07:55:43,747 DEBUG] - CFW::In processCommand: before calling cmdProcessor.Process
+[2014-01-31 07:55:43,888 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:done=true
+[2014-01-31 07:55:43,888 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:return code=0 error text=Error 0: null
+[2014-01-31 07:55:43,888 DEBUG] - CFW::Time to process command for 423181487:141
+[2014-01-31 07:55:43,888 DEBUG] - CFW::Number of bank accounts found:1
+[2014-01-31 07:55:43,888 DEBUG] - CFW::In schedulePayment for 423181487 Amount: *9.51* Date(mm/dd/yyyy): *01/31/2014*
+[2014-01-31 07:55:43,888 DEBUG] - CFW::In getPayee for 423181487
+[2014-01-31 07:55:43,888 DEBUG] - CFW::In processCommand checkfree.businterface.csapi.CFCmdListPayees for 423181487
+[2014-01-31 07:55:43,909 DEBUG] - CFW::In processCommand: After setAuthRecord
+[2014-01-31 07:55:43,909 DEBUG] - CFW::In processCommand: get new CFCommandProcessor
+[2014-01-31 07:55:43,909 DEBUG] - CFW::In processCommand: before calling cmdProcessor.Process
+[2014-01-31 07:55:44,019 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:done=true
+[2014-01-31 07:55:44,020 DEBUG] - CFW::In processCommand: after calling cmdProcessor.Process:return code=0 error text=Error 0: SUCCESSFUL
+[2014-01-31 07:55:44,020 DEBUG] - CFW::Time to process command for 423181487:111
+[2014-01-31 07:55:44,020 DEBUG] - CFW::Converting returnCode:49005.  new returnCode:90255
+[2014-01-31 07:55:44,020 DEBUG] - Error enrolling and scheduling payment (90255):More than one payee exist
+[2014-01-31 07:55:44,020 DEBUG] - CFW::Converting returnCode:49005.  new returnCode:90255
+[2014-01-31 07:55:44,020 DEBUG] - REMOVING MMSESSION KEY:transIDba, old value:null
+[2014-01-31 07:55:44,020 DEBUG] - In ARPM::Return from BankDraft:90255More than one payee exist payId:null
+[2014-01-31 07:55:44,020 DEBUG] - In ARPM::Writing Check note.  Codes:P0B #P0
+[2014-01-31 07:55:44,020 DEBUG] - In ARPM::Writing note.  Codes:P0B #P0
+[2014-01-31 07:55:44,020 DEBUG] - In ARPayment Manager: addNotesRecord() : Writing note.  billCycle:5 futureBillCycle:=0
+[2014-01-31 07:55:44,020 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:44,021 DEBUG] - In AR Payment Manager: addNotesRecord() : Writing note. noteLine2:=Customer Name: DONALD M BUCKNER
+[2014-01-31 07:55:44,021 DEBUG] - ******************************Token*******************************ISSgxs6166        423181487S
+[2014-01-31 07:55:44,022 DEBUG] - In add note.  Data:*423181487*#P0{gxs6166}, has attempted a payment.*Customer Name: DONALD M BUCKNER                                  *payment amount: {9.51}  payment status: {FAILED}*bank acnt schd date: {01312014}  payment ID: {}**
+[2014-01-31 07:55:44,022 DEBUG] -  MQ Header : CIWWNOTE            WWP     pvmkb060                                                                                     
+[2014-01-31 07:55:44,122 DEBUG] - SETTING TO NON JMS CLIENT
+[2014-01-31 07:55:44,122 DEBUG] - Creating Request Queue - SUCCESS. . .
+[2014-01-31 07:55:44,236 DEBUG] - Creating RESPONSE Queue. . .WWP.REPLY01
+[2014-01-31 07:55:44,236 DEBUG] -  Request Message : CIWWNOTE            WWP     pvmkb060                                                                                                                                                                    CIWWNOTE                    ISSgxs6166        423181487S          423181487#P0{gxs6166}, has attempted a payment.                                Customer Name: DONALD M BUCKNER                                       payment amount: {9.51}  payment status: {FAILED}                      bank acnt schd date: {01312014}  payment ID: {}                                                                                       
+[2014-01-31 07:55:44,236 DEBUG] -  mqmessage : CIWWNOTE            WWP     pvmkb060                                                                                                                                                                    CIWWNOTE                    ISSgxs6166        423181487S          423181487#P0{gxs6166}, has attempted a payment.                                Customer Name: DONALD M BUCKNER                                       payment amount: {9.51}  payment status: {FAILED}                      bank acnt schd date: {01312014}  payment ID: {}
+[2014-01-31 07:55:44,236 DEBUG] -  messageFromFile : : CIWWNOTE            WWP     pvmkb060                                                                                                                                                                    CIWWNOTE                    ISSgxs6166        423181487S          423181487#P0{gxs6166}, has attempted a payment.                                Customer Name: DONALD M BUCKNER                                       payment amount: {9.51}  payment status: {FAILED}                      bank acnt schd date: {01312014}  payment ID: {}                                                                                     
+[2014-01-31 07:55:44,236 DEBUG] -  Calling Send Message
+[2014-01-31 07:55:44,252 DEBUG] - Send Message:*CIWWNOTE            WWP     pvmkb060                                                                                                                                                                    CIWWNOTE                    ISSgxs6166        423181487S          423181487#P0{gxs6166}, has attempted a payment.                                Customer Name: DONALD M BUCKNER                                       payment amount: {9.51}  payment status: {FAILED}                      bank acnt schd date: {01312014}  payment ID: {}                                                                                             * (625)
+[2014-01-31 07:55:44,252 DEBUG] -  Receiving Message
+[2014-01-31 07:55:44,367 DEBUG] - Message Property Names:
+[2014-01-31 07:55:44,367 DEBUG] - TextMessage:[4296][CIWWNOTE            WWP     pvmkb060                                        00000                                                                                                                        00000                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ]
+[2014-01-31 07:55:44,381 DEBUG] - Closing RECEIVER
+[2014-01-31 07:55:44,395 DEBUG] -  headermsg : CIWWNOTE            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:44,395 DEBUG] -  headermsg.length() : 200
+[2014-01-31 07:55:44,395 DEBUG] -  headermsg : CIWWNOTE            WWP     pvmkb060                                        00000                                        
+[2014-01-31 07:55:44,395 DEBUG] -  ResponseCode : 00000
+[2014-01-31 07:55:44,395 DEBUG] -  ResponseCode.length() : 5
+[2014-01-31 07:55:44,396 DEBUG] -  ResponseText :
+[2014-01-31 07:55:44,396 DEBUG] -  ResponseText.length() : 100
+[2014-01-31 07:55:44,396 DEBUG] - Return Message (trimmed):00000
+[2014-01-31 07:55:44,396 DEBUG] -  Inside JMSConnection.setErrorFields()
+[2014-01-31 07:55:44,546 DEBUG] -  Inside JMSConnection.invoke() finally loop after close connection
+[2014-01-31 07:55:44,546 DEBUG] - In ARPM::logCheckTransaction::CustId:423181487,UserName:gxs6166,UserType:S
+[2014-01-31 07:55:44,547 DEBUG] - subnoteCode : #P0  Date : 01312014 075544  custNbr : 423181487  loginID : gxs6166          loginName : DONALD M BUCKNER                                    emailAddress : GEDEAN.X.SOBERS@SPRINT.COM                          payOpt : NA  ww_payOpt : IE  billAgency : I   ww_billAgency : I   icType : NA  ieRTN : 096015232        acctNbr : 8469  holderName :Donald Buckner                                      paymentAmnt : 9.51       paymentSchedDate : 01312014  paymentID :                                 errorCode : 90255  errorTxt : More than one payee exist                                                                                                                                                                                                                                                                                                                                                                                                                               
+[2014-01-31 07:55:44,547 DEBUG] - Full Path =/logs/wwp/production/Arc_payment_pvmkb060_20140131.log
+[2014-01-31 07:55:44,588 DEBUG] - Write record complete.  File:/logs/wwp/production/Arc_payment_pvmkb060_20140131.log
+[2014-01-31 07:55:44,588 DEBUG] - In ARPM::Return from payment record:00000~:~
+[2014-01-31 07:55:44,592 DEBUG] - sqlQuery: $$SELECT * FROM MBU_MSG_ALL_PAGE WHERE MSG_NBR_ID = ? AND MBU_CD = ? AND TERR_CD = ? AND SERV_TYPE_CD = ? AND PLAN_TYPE_CD = ?$$
+[2014-01-31 07:55:44,594 DEBUG] - Error Data found!
+[2014-01-31 07:55:44,594 DEBUG] - Executing query for parms 1:90255 2:B 3:  4:  5:  ::Message found!  Using Permanent Text.
+[2014-01-31 07:55:44,595 DEBUG] - MMSession key:payResponseCode, value:90255, old value:null
+[2014-01-31 07:55:44,595 DEBUG] - IN ARPM:processPostPayment() method:payResponseCode:90255
+[2014-01-31 07:55:44,595 DEBUG] - Inside CSM: arprocess() method: ret=ARpayabillPost
+[2014-01-31 07:55:44,595 DEBUG] - Setting return attribute:(*payResponseCode*,*90255*)
+[2014-01-31 07:55:44,595 DEBUG] - Setting return attribute:(*payResponseMessage*,*The service is temporarily unavailable.  Please try again later. (90255)*)
+[2014-01-31 07:55:44,595 DEBUG] - Finished processing AR request.  New page: ARpayabillPost
+[2014-01-31 07:55:44,595 DEBUG] - %%%%% PROCESSING REQUEST: ARpayabillPost, SENDING TO: ARpayabillPost, FOR USER:gxs6166 (gxs6166) IP:144.229.32.1
+[2014-01-31 07:55:44,595 DEBUG] - PageInfo.arInit for ARpayabillPost
+[2014-01-31 07:55:44,596 DEBUG] - NavPage:2 pageId:126 title:Pay A Bill : Payment Result
+[2014-01-31 07:55:44,596 DEBUG] - Inside arInit:address2:= SAINT CLOUD         MN56301
+[2014-01-31 07:55:44,596 DEBUG] - MMSession key:navCustData1, value:2839 24TH AVE S, old value:2839 24TH AVE S
+[2014-01-31 07:55:44,596 DEBUG] - MMSession key:navCustData2, value:SAINT CLOUD         MN56301, old value:SAINT CLOUD         MN56301
+[2014-01-31 07:55:44,596 DEBUG] - forward next view
+[2014-01-31 07:55:44,596 DEBUG] - forward next view
+[2014-01-31 07:55:44,596 DEBUG] - UserType is Bsg - In else block ### false
+[2014-01-31 07:55:44,596 DEBUG] - UserType In else block ### S
+[2014-01-31 07:55:44,596 DEBUG] - applicationId ### B
+[2014-01-31 07:55:44,596 DEBUG] - is BSG true
+[2014-01-31 07:55:44,597 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:44,597 DEBUG] - include: arNav.jsp
+[2014-01-31 07:55:44,598 DEBUG] - include: payabill/ARpost.jsp
+[2014-01-31 07:55:44,598 DEBUG] - include: /omniture.jsp
+[2014-01-31 07:55:44,598 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:44,599 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@2ba19831 Page: ARpayabillPost CSStat: 1502
+[2014-01-31 07:55:51,910 DEBUG] - B***M***
+[2014-01-31 07:55:51,910 DEBUG] - %%%%% IN CONTROLLER SERVLET FOR: viewbillsMBA IP: 146.209.159.23 %%%%%
+[2014-01-31 07:55:51,910 DEBUG] - viewbillsMBA This is the requestpage
+[2014-01-31 07:55:51,910 DEBUG] - Checking for username parameter
+[2014-01-31 07:55:51,910 DEBUG] - If secure mode is true
+[2014-01-31 07:55:51,911 DEBUG] - request.getHeader UserName phillir1
+[2014-01-31 07:55:51,911 DEBUG] - username=phillir1
+[2014-01-31 07:55:51,911 DEBUG] - from session UserName phillir1
+[2014-01-31 07:55:51,911 DEBUG] - requestProcessor in session is not null....
+[2014-01-31 07:55:51,911 DEBUG] -
+[2014-01-31 07:55:51,911 DEBUG] - I am in else of EDI
+[2014-01-31 07:55:51,911 DEBUG] - In Controller Servlet:arUserType:= null
+[2014-01-31 07:55:51,911 DEBUG] - In Controller Servlet:Calling  Request Processor  process()  method
+[2014-01-31 07:55:51,911 DEBUG] - Inside RequestProcessor --- process() method
+[2014-01-31 07:55:51,911 DEBUG] - &&&& Inside RP: process() method: REQUEST KEY ISpageRequest AND VALUE IS viewBills
+[2014-01-31 07:55:51,911 DEBUG] - RP: Value of Application is B
+[2014-01-31 07:55:51,911 DEBUG] - RP: Value of Application isBSG true
+[2014-01-31 07:55:51,911 DEBUG] - Processing request: viewbillsMBA.  FirstTime: false
+[2014-01-31 07:55:51,911 DEBUG] - Finished processing request.  New page: viewbillsMBA
+[2014-01-31 07:55:51,912 DEBUG] - %%%%% PROCESSING REQUEST: viewbillsMBA, SENDING TO: viewbillsMBA, FOR USER:phillir1 IP:146.209.159.23
+[2014-01-31 07:55:51,912 DEBUG] - PageInfo.init for viewbillsMBA
+[2014-01-31 07:55:51,912 DEBUG] - Account:=[ custId=927336380, name INVISTA                                           , physicalAddress[ Address 1=25876 DUPONT ROAD         , Address 2=                          , City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], billingAddress=[ Address 1=25876 DUPONT ROAD, Address 2=, City=LAUREL              , State/Province=DE, Postal Code=19956    , country=USA], arIndicator=C, cityStateZip=LAUREL, DE  19956, hierarchyLevel=H4 , userType]
+[2014-01-31 07:55:51,912 DEBUG] - NavPage:1 pageId:112 title:View Bills : View MBA Invoices
+[2014-01-31 07:55:51,912 DEBUG] - PageInfo.getViewBillLink():Final ret viewbillsMBA?pageRequest=viewBills
+[2014-01-31 07:55:51,912 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=sensitiveCustomersBillCycles and  value =75,76
+[2014-01-31 07:55:51,912 DEBUG] - PageInfo.setNavButtons() billCycles :[75, 76]
+[2014-01-31 07:55:51,912 DEBUG] - PageInfo.setNavButtons() msa.getBillCycle() : 52
+[2014-01-31 07:55:51,912 DEBUG] - PageInfo.setNavButtons() msa.getFutureBillCycle() : 0
+[2014-01-31 07:55:51,913 DEBUG] - isCSADisplay()false
+[2014-01-31 07:55:51,913 DEBUG] - isCSASupervisor()false
+[2014-01-31 07:55:51,913 DEBUG] - isCSAUpdate()false
+[2014-01-31 07:55:51,913 DEBUG] - isIDTCsa()false
+[2014-01-31 07:55:51,913 DEBUG] - forward next view
+[2014-01-31 07:55:51,913 DEBUG] - forward next view
+[2014-01-31 07:55:51,913 DEBUG] - UserType is Bsg - In else block ### true
+[2014-01-31 07:55:51,913 DEBUG] - UserType In else block ### B
+[2014-01-31 07:55:51,913 DEBUG] - applicationId ### B
+[2014-01-31 07:55:51,913 DEBUG] - is BSG true
+[2014-01-31 07:55:51,914 DEBUG] - include: /headers/bsg.jsp
+[2014-01-31 07:55:51,914 DEBUG] - include: navMBA.jsp
+[2014-01-31 07:55:51,915 DEBUG] - include: viewbillsMBA.jsp
+[2014-01-31 07:55:51,915 DEBUG] - invoiceConfig is null in pageContext
+[2014-01-31 07:55:51,915 DEBUG] - mm.getInvoiceConfig is null, retrieving invoices from database for 927336380
+[2014-01-31 07:55:51,926 DEBUG] - MMSession key:navCustData1, value:2014-01-27</B>, old value:25876 DUPONT ROAD
+[2014-01-31 07:55:51,926 DEBUG] - MMSession key:navCustData2, value:2014-01-28</B>, old value:LAUREL, DE  19956
+[2014-01-31 07:55:51,926 DEBUG] - MMSession key:navCustData3, value:25876 DUPONT ROAD, old value:null
+[2014-01-31 07:55:51,926 DEBUG] - MMSession key:navCustData4, value:52012142033286, old value:null
+[2014-01-31 07:55:51,926 DEBUG] - firstTime:retrieve all reports and display invoice summary for invcPk:42895677
+[2014-01-31 07:55:51,930 DEBUG] - reportType:RIPSPVA1
+[2014-01-31 07:55:51,930 DEBUG] - reportType:RIPSPCS1
+[2014-01-31 07:55:51,930 DEBUG] - reportType:RIPSPVD1
+[2014-01-31 07:55:51,930 DEBUG] - reportType:RIPSPUS1
+[2014-01-31 07:55:51,930 DEBUG] - InvoiceData:retrieveSummaryXML:invPk=42895677
+[2014-01-31 07:55:51,930 DEBUG] - InvoiceData:retrieveSummaryXML:reportType=RIPSPVA1
+[2014-01-31 07:55:51,952 DEBUG] - InvoicePageTagMBA:doStartTag():report type is RIPSPVA1 or RIPSPVA2
+[2014-01-31 07:55:51,952 DEBUG] - InvoicePageTagMBA:doStartTag():report type RIPSPVA1 or RIPSPVA2 has gov-tax-blk tag
+[2014-01-31 07:55:51,952 DEBUG] - InvoicePageTagMBA:doStartTag():newRepFlagRIPSPVA2=true
+[2014-01-31 07:55:51,952 DEBUG] - InvoicePageTagMBA:mbatemplates/display/RIPSPVA1.jsp
+[2014-01-31 07:55:51,952 DEBUG] - invoiceConfig is null in pageContext
+[2014-01-31 07:55:51,952 DEBUG] - invoiceConfig is not null in session
+[2014-01-31 07:55:51,952 DEBUG] - MMSession key:navCustData1, value:2014-01-27</B>, old value:2014-01-27</B>
+[2014-01-31 07:55:51,952 DEBUG] - MMSession key:navCustData2, value:2014-01-28</B>, old value:2014-01-28</B>
+[2014-01-31 07:55:51,952 DEBUG] - MMSession key:navCustData3, value:25876 DUPONT ROAD, old value:25876 DUPONT ROAD
+[2014-01-31 07:55:51,953 DEBUG] - MMSession key:navCustData4, value:52012142033286, old value:52012142033286
+[2014-01-31 07:55:51,953 DEBUG] - reportType:RIPSPVA1
+[2014-01-31 07:55:51,953 DEBUG] - reportType:RIPSPCS1
+[2014-01-31 07:55:51,953 DEBUG] - reportType:RIPSPVD1
+[2014-01-31 07:55:51,953 DEBUG] - reportType:RIPSPUS1
+[2014-01-31 07:55:51,953 DEBUG] - PJ006858:isHierarchyMasterUser::false
+[2014-01-31 07:55:51,953 DEBUG] - PJ006858:HierarchyLevel::H4
+[2014-01-31 07:55:51,953 DEBUG] - InvoicePageTagMBA : getSSWebURL() Enter
+[2014-01-31 07:55:51,953 DEBUG] - PropertiesManager:getSensitiveCustomersBillCycles:propName=SSWebSearchFlags and  value =null
+[2014-01-31 07:55:51,953 DEBUG] - SSWebApiManager getSSWebSessionID() Method Enter
+[2014-01-31 07:55:51,954 DEBUG] - getClientConSoap() Method Enter
+[2014-01-31 07:55:51,954 DEBUG] - WSDL URLhttp://ssweb.sprint.com/webservice/SSClientConnection.asmx?WSDL
+[2014-01-31 07:55:53,069 DEBUG] - getClientConSoap() Method Exit
+[2014-01-31 07:55:53,712 DEBUG] - SSWebApiManager getSSWebSessionID() Method Exit{139C5202-D6CB-4C80-8101-03AFD46087E8}
+[2014-01-31 07:55:53,712 DEBUG] - ssWeb.getSSWebSessionID(){139C5202-D6CB-4C80-8101-03AFD46087E8}
+[2014-01-31 07:55:53,712 DEBUG] - Invoice_Account_ID=927336380 and Activity_Through_2="01/27/2014"
+[2014-01-31 07:55:53,712 DEBUG] - getClientSearch6Soap() Method Enter
+[2014-01-31 07:55:53,712 DEBUG] - WSDL URLhttp://ssweb.sprint.com/webservice/SSClientSearch6.asmx?WSDL
+[2014-01-31 07:55:53,717 DEBUG] - getClientSearch6Soap() Method Exit
+[2014-01-31 07:55:54,253 DEBUG] - ssWebSearchSSWebSearch [appName=SSWEB_IOP, sessionID={139C5202-D6CB-4C80-8101-03AFD46087E8}, archName=IPS_MBA_Invoice_CSG_Archive, reportName=Invoices_MBA, page=1, pageSize=100, query=Invoice_Account_ID=927336380 and Activity_Through_2="01/27/2014", fullQueryText=null, searchFlags=null, groupBy=null, sortField=null, snapshotID=0, localeID=1033]
+[2014-01-31 07:55:54,253 DEBUG] - 18
+[2014-01-31 07:55:54,253 DEBUG] - 1
+[2014-01-31 07:55:54,253 DEBUG] - 1
+[2014-01-31 07:55:54,253 DEBUG] - list[{ReportDefaultPage=5379, DocumentId=559557, ReportId=371, NoteTransactionName=Invoices_MBA, Master_Account_ID_2=924413488, Invoice_Number_2=52012142033286, SubmittedDate=1/30/2014 11:13 AM, NoteTransactionId=371, DocumentSize=23297248, CSG=00000, ReportStartPage=5379, DocumentName=IPSMBA.D4S.JAN1414.MBAL.f0.pdf, Invoice_Account_ID=927336380, SubmittedBy=, Activity_Through_2=1/27/2014, CreatedDate=1/28/2014 1:20 PM, ReportAuthorizationCode=0632FF7E765089EFB6AD9AFD2185EA22, ReportEndPage=5390}]
+[2014-01-31 07:55:54,253 DEBUG] - createWebURLReqCreateWebURLRequest [sessID={139C5202-D6CB-4C80-8101-03AFD46087E8}, appName=SSWEB_IOP, archName=IPS_MBA_Invoice_CSG_Archive, reportName=Invoices_MBA, docID=559557, reportID=371, reportStartPage=5379, reportEndPage=5390, reportDefaultPage=5379, reportAuthorizationCode=0632FF7E765089EFB6AD9AFD2185EA22, invNum=52012142033286, actThroughDate=1/27/2014]
+[2014-01-31 07:55:54,253 DEBUG] - {ReportDefaultPage=5379, DocumentId=559557, ReportId=371, NoteTransactionName=Invoices_MBA, Master_Account_ID_2=924413488, Invoice_Number_2=52012142033286, SubmittedDate=1/30/2014 11:13 AM, NoteTransactionId=371, DocumentSize=23297248, CSG=00000, ReportStartPage=5379, DocumentName=IPSMBA.D4S.JAN1414.MBAL.f0.pdf, Invoice_Account_ID=927336380, SubmittedBy=, Activity_Through_2=1/27/2014, CreatedDate=1/28/2014 1:20 PM, ReportAuthorizationCode=0632FF7E765089EFB6AD9AFD2185EA22, ReportEndPage=5390}
+[2014-01-31 07:55:54,253 DEBUG] - CreateWebURLRequest [sessID={139C5202-D6CB-4C80-8101-03AFD46087E8}, appName=SSWEB_IOP, archName=IPS_MBA_Invoice_CSG_Archive, reportName=Invoices_MBA, docID=559557, reportID=371, reportStartPage=5379, reportEndPage=5390, reportDefaultPage=5379, reportAuthorizationCode=0632FF7E765089EFB6AD9AFD2185EA22, invNum=52012142033286, actThroughDate=1/27/2014]
+[2014-01-31 07:55:54,253 DEBUG] - getClientDoc7Soap() Method Enter
+[2014-01-31 07:55:54,254 DEBUG] - WSDL URLhttp://ssweb.sprint.com/webservice/SSClientDocument7.asmx?WSDL
+[2014-01-31 07:55:54,258 DEBUG] - getClientDoc7Soap() Method Exit
+[2014-01-31 07:55:54,672 DEBUG] - SSWebApiManager getSSWebSessionID() Method Enter
+[2014-01-31 07:55:55,288 DEBUG] - SSWebApiManager getSSWebSessionID() Method Exittrue
+[2014-01-31 07:55:55,288 DEBUG] - SSWeb:getSSWebLogout Sucessfully Loggedout
+[2014-01-31 07:55:55,288 DEBUG] - SSWeb:getSSWebLogout true
+[2014-01-31 07:55:55,288 DEBUG] - SSWeb:Complete URL for locating PDF documenthttp://ssweb.sprint.com/resource/SSEPDFExtractor.dll?A520FC7E14BCD67BA208DC765BC923DDCC81A9CE13E270BC10BA5BDDAC75C8BB63C7C7EED128D0CFB8A1BA58674D3944031DCE7BEE9C7390ADA520FC59E47C41B9927CB0406C41052C8ADFE857B188EA9E54BDF7FEABFF2DDE442DE7D74473E0C0F31BFD08625CC917102EB74E94E2A5EBF7C9EE96D2BC18EFA8C56071F9CD21F99F3418932B632E64FC95E530403D6A3D069CE3B52A0A33CBBDA365EBF89D2AC722D510C6DF254D
+[2014-01-31 07:55:55,288 DEBUG] - InvoicePageTagMBA : getSSWebURL() Exit
+[2014-01-31 07:55:55,288 DEBUG] - InvoicePageTagMBA:writeBody():begins
+[2014-01-31 07:55:55,288 DEBUG] - InvoiceData:retrieveSummaryXML:invPk=42895677
+[2014-01-31 07:55:55,289 DEBUG] - InvoiceData:retrieveSummaryXML:reportType=RIPSPVA1
+[2014-01-31 07:55:55,293 DEBUG] - InvoicePageTagMBA:writeBody():after retrieveSummaryXML
+[2014-01-31 07:55:55,293 DEBUG] - InvoicePageTagMBA:writeBody():rptName : RIPSPVA1
+[2014-01-31 07:55:55,293 DEBUG] - InvoicePageTagMBA:writeBody():report type is not RIPSPVA2||RIPSPVE1||RIPSPVD1||RIPSPVO1. Before retrieveMBAXML
+[2014-01-31 07:55:55,293 DEBUG] - InvoiceData:retrieveMBAXsl:reportType=RIPSPVA1
+[2014-01-31 07:55:55,293 DEBUG] - InvoiceData:retrieveMBAXsl:cutoffDate=2014-01-27
+[2014-01-31 07:55:55,305 DEBUG] - InvoicePageTagMBA:writeBody():report type is not RIPSPVA2||RIPSPVE1||RIPSPVD1||RIPSPVO1, After retrieveMBAXsl
+[2014-01-31 07:55:55,306 DEBUG] - InvoicePageTagMBA:writeBody():report type is RIPSPVA1 or RIPSPVA2
+[2014-01-31 07:55:55,306 DEBUG] - InvoicePageTagMBA:writeBody():report type RIPSPVA1 or RIPSPVA2 has gov-tax-blk tag
+[2014-01-31 07:55:55,306 DEBUG] - InvoicePageTagMBA:writeBody():newRepFlagRIPSPVA2=true
+[2014-01-31 07:55:55,306 DEBUG] - InvoicePageTagMBA:writeBody():New Report RIPSPVA2
+[2014-01-31 07:55:55,306 DEBUG] - InvoiceData:retrieveMBAXsl:reportType=RIPSPVA1
+[2014-01-31 07:55:55,306 DEBUG] - InvoiceData:retrieveMBAXsl:cutoffDate=2014-01-27
+[2014-01-31 07:55:55,312 DEBUG] - InvoicePageTagMBA:writeBody():After retrieveMBAXsl RIPSPVA2
+[2014-01-31 07:55:55,337 DEBUG] - *************After processor.process***************
+[2014-01-31 07:55:55,337 DEBUG] - include: /footers/bsg.jsp
+[2014-01-31 07:55:55,338 DEBUG] - MM in session: com.sprint.mysam.model.ModelManager@6548f6b8 Page: viewbillsMBA CSStat: 3427
+$
