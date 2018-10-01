@@ -1,0 +1,139 @@
+
+
+Open JDK Install
+--------------------
+
+sudo add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk -Y
+java -version
+
+Jenkins
+---------------------
+
+wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+
+cd /tmp && wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+
+echo 'deb https://pkg.jenkins.io/debian-stable binary/' | sudo tee -a /etc/apt/sources.list.d/jenkins.list
+
+sudo apt update
+sudo apt install jenkins -Y
+
+sudo apt-get remove --purge jenkins
+sudo service jenkins stop
+
+sudo systemctl stop jenkins.service
+sudo systemctl start jenkins.service
+sudo systemctl enable jenkins.service
+
+.........................
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+
+http://18.188.121.255:8080/
+18.188.121.255
+http://18.188.121.255:8080/
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword   
+
+Git and Maven
+----------------------
+sudo apt-get install git 
+sudo apt-get install maven
+----------------------------
+
+
+Nexus on redhat
+---------------
+sudo -i
+yum install -y java-1.8.0-openjdk.x86_64 vim wget
+export RUN_AS_USER=root
+wget http://www.sonatype.org/downloads/nexus-latest-bundle.tar.gz
+sudo cp nexus-latest-bundle.tar.gz /usr/local/
+cd /usr/local
+sudo tar xvzf nexus-latest-bundle.tar.gz
+    
+sudo ln -s nexus-2.14.10-01 nexus
+/usr/local/nexus/bin/nexus start
+
+service iptables stop
+
+-----------------------------
+
+Tomacat Radhat
+-----------------------
+
+sudo -i
+
+apt-get/yum update
+apt-get/yum install default-jre
+apt-get/yum install zip
+wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.zip
+mv apache-tomcat-8.5.34.zip /opt
+cd /opt
+yum install unzip
+unzip apache-tomcat-8.5.34.zip
+cd apache-tomcat-8.5.34
+cd /opt/apache-tomcat-8.5.34/bin
+chmod u+x startup.sh
+chmod u+x shutdown.sh
+chmod u+x catalina.sh
+
+./startup.sh
+./shutdown.sh
+
+cd /opt/apache-tomcat-8.5.15/
+vi conf/tomcat-users.xml
+
+Replace Below With
+
+<!--
+  <role rolename="tomcat"/>
+  <role rolename="role1"/>
+  <user username="tomcat" password="<must-be-changed>" roles="tomcat"/>
+  <user username="both" password="<must-be-changed>" roles="tomcat,role1"/>
+  <user username="role1" password="<must-be-changed>" roles="role1"/>
+-->
+
+<role rolename="manager-script"/>
+  <role rolename="manager-gui"/>
+  <user username="tomcat" password="tomcat" roles="manager-script,manager-gui"/>
+vi webapps/manager/METS-INF/context.xml 
+
+Replace or comment 
+
+<Context antiResourceLocking="false" privileged="true" >
+  ,!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
+  <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
+</Context>
+
+
+
+
+http://18.224.71.52:8080/manager/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
