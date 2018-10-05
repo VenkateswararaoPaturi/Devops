@@ -1,6 +1,6 @@
 
 
-Open JDK Install
+Open JDK Install Ubuntu
 --------------------
 
 sudo add-apt-repository ppa:openjdk-r/ppa
@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get install openjdk-8-jdk -Y
 java -version
 
-Jenkins
+Jenkins Ubuntu
 ---------------------
 
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
@@ -39,11 +39,36 @@ http://18.188.121.255:8080/
 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword   
 
-Git and Maven
+Git and Maven Ubuntu
 ----------------------
 sudo apt-get install git 
 sudo apt-get install maven
 ----------------------------
+Sonar ubuntu/sonarqube-5.6.7
+-------------------
+sudo apt-get update
+wget https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-6.4.zip
+sudo apt-get -y install unzip
+sudo unzip sonarqube-6.4.zip -d /opt
+sudo mv /opt/sonarqube-6.4 /opt/sonarqube
+
+---
+[Unit]
+Description=SonarQube service
+After=syslog.targetnetwork.target
+[Service]
+Type=forking
+ExecStart=/opt/sonarqube/bin/linux-x86-64/sonar.sh start
+ExecStop=/opt/sonarqube/bin/linux-x86-64/sonar.sh stop
+User=root
+Group=root
+Restart=always
+[Install]
+WantedBy=multi-user.target
+---
+sudo systemctl start sonar
+sudo systemctl enable sonar
+sudo systemctl status sonar
 
 
 Nexus on redhat
@@ -115,6 +140,36 @@ Replace or comment
 
 
 http://18.224.71.52:8080/manager/
+
+--------------------------
+13.58.5.98
+
+-----------------------------
+
+
+183.82.222.194/32  sg-0863a14af641a7035
+
+-----------------------------------
+
+Sonar on Ubuntu
+------------------------
+sudo -i
+add-apt-repository -y ppa:webupd8team/java
+apt-get update
+apt-get -y install oracle-java8-installer
+ln -s /usr/lib/jvm/java-8-oracle/ /usr/lib/jvm/default-java
+------------
+sudo apt-get install unzip 
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-5.6.6.zip
+unzip sonarqube-5.6.6.zip
+cd sonarqube-5.6.6/
+/home/ubuntu/sonarqube-5.6.6
+---------------
+sudo apt-get install mysql-server
+------------
+
+~/sonarqube-5.6.6/bin/linux-x86-64
+./sonar.sh start
 
 
 
